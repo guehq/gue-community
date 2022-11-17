@@ -5,8 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GUE Community</title>
+
+  <!-- Styles -->
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/nev.css">
+
+  <!-- Scripts -->
   <script src="./js/markers-and-star-mesh.js"></script>
   <script src="./js/miniature.earth.js"></script>
   
@@ -209,86 +213,28 @@
       window.open( this.link );
     }
   </script>
-    
-  <style>
-    .earth-container{position:relative;z-index:1}
-    .earth-container::before{content:"";display:block;padding-top:100%}
-    .earth-container>canvas{position:absolute;top:0;left:0;z-index:1000;user-select:none}
-    .earth-draggable{cursor:all-scroll;cursor:-webkit-grab;cursor:grab}
-    .earth-dragging *{cursor:all-scroll;cursor:-webkit-grabbing!important;cursor:grabbing!important}
-    .earth-clickable{cursor:pointer}
-    .earth-overlay{position:absolute;top:0;left:0;user-select:none;pointer-events:none;transform-origin:0 0}
-    .earth-overlay a,
-    .earth-overlay input,
-    .earth-overlay button{pointer-events:all}
-    .earth-hittest{position:fixed;width:200vh;max-width:100%;top:0;left:0;z-index:999999}
-    .earth-hittest svg{max-width:100%;height:auto;display:block;margin:0;opacity:0}
-  </style>
 </head>
 
 <body>
-  <div class="background"></div>
-  <div id="zoom-out" onclick="zoomOut(); event.stopPropagation();"></div>
-  <div id="myearth" class="earth-container earth-ready">
-    <canvas width="1077" height="796" style="display: block; width: 1077px; height: 796px;"></canvas>
-
-    <div class="earth-overlay earth-overlay-left" style="display: none; z-index: 1010;">
-      <div class="tooltip"></div>
-    </div>
-  </div>
-    
-  <style>
-    #back-link {
-      position: fixed;
-      top: 0;
-      left: 0;
-      background: transparent;
-      padding: 0.5em;
-      font-size: 26px;
-      z-index: 10000;
-    }
-    #back-link img {
-      display: block;
-      width: 4em;
-      height: auto;
-    }
-
-    @media (max-width: 1199px) {
-      #back-link {
-        font-size: 20px;
-      }
-    }
-
-    @media (max-width: 511px) {
-      #back-link {
-        font-size: 16px;
-      }
-    }
-
-    #legal-footer-wrap {
-      position: relative;
-      height: 0;
-      z-index: 10002;
-      font-family: Arial, sans-serif;
-    }
-
-    #legal-footer {
-      position: absolute;
-      bottom: 0.5em;
-      right: 0.5em;
-    }
-
-    #legal-footer a {
-      text-decoration: none;
-      color: white;
-      padding: 0 0.5em;
-      font-size: 10px;
-    }
-  </style>
 
   <a id="back-link" href="../">
     <img src="./img/logo.png" alt="GUE Community">
   </a>
+
+  <div class="landing-page">
+    <h1>One World One Community!</h1>
+  </div>
+
+  <div class="globe">
+    <div id="zoom-out" onclick="zoomOut(); event.stopPropagation();"></div>
+    <div id="myearth" class="earth-container earth-ready">
+      <canvas width="1077" height="796" style="display: block; width: 1077px; height: 796px;"></canvas>
+      
+      <div class="earth-overlay earth-overlay-left" style="display: none; z-index: 1010;">
+        <div class="tooltip"></div>
+      </div>
+    </div>
+  </div>
 
   <div id="legal-footer-wrap">
     <div id="legal-footer">

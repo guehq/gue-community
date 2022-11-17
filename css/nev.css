@@ -1,13 +1,31 @@
-.background { 
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
+body {
+  background-color: black;
+}
+
+.landing-page,
+.globe {
   background: url(../img/BG.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  filter: grayscale(90%) brightness(20%);
+}
+
+.landing-page {
+  margin: 0;
+  padding: 1px 0;
+}
+
+.landing-page h1 {
+  color: white;
+  font-size: 4.5em !important;
+  text-align: center;
+  margin: 4em 0 2em;
+}
+
+#legal-footer-wrap {
+  position: fixed ;
+  bottom: 0;
+  right: 0;
+  width: 100%;
 }
