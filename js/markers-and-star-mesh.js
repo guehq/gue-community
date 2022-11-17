@@ -141,7 +141,7 @@ markers = [
 
   // Portugal
   {
-    title : 'Budapest',
+    title : 'Lissabon',
     logo: '',
     manager: '',
     email:'',
@@ -168,6 +168,39 @@ markers = [
         email:'',
         link : '',
         location: { lat: 46.16699, lng: 8.79426 }
+      }
+    ]
+  },
+  
+  // Spain
+  {
+    title : 'Valencia',
+    logo: '',
+    manager: '',
+    email:'',
+    link : '',
+    location: { lat: 39.4699, lng: -0.37628 }
+  },
+
+  // United Kingdom
+  {
+    location: { lat: 54.98219189283883, lng: -2.7080122916294305 },
+    clusteredMarkers : [
+      {
+        title : 'London',
+        logo: '',
+        manager: '',
+        email:'',
+        link : '',
+        location: { lat: 51.50721, lng: -0.12758 }
+      },
+      {
+        title : 'Glasgow',
+        logo: '',
+        manager: '',
+        email:'',
+        link : '',
+        location: { lat: 55.86423, lng: -4.2518 }
       }
     ]
   }
