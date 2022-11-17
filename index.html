@@ -7,12 +7,12 @@
   <title>GUE Community</title>
 
   <!-- Styles -->
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/nev.css">
+  <link rel="stylesheet" href="./css/style.css?v=221117-1">
+  <link rel="stylesheet" href="./css/nev.css?v=221117-1">
 
   <!-- Scripts -->
-  <script src="./js/markers-and-star-mesh.js"></script>
-  <script src="./js/miniature.earth.js"></script>
+  <script src="./js/markers-and-star-mesh.js?v=221117-1"></script>
+  <script src="./js/miniature.earth.js?v=221117-1"></script>
   
   <script>
   
@@ -27,11 +27,11 @@
       light: 'simple',
       
       transparent: true,		
-      mapLandColor : '#7193cb',
-      mapSeaColor : 'rgba(0,51,153,0.8)',
-      mapBorderColor : 'rgba(0,51,153,1)',
+      mapLandColor : '#3391eb', //#7193cb
+      mapSeaColor : '#1e2225', // rgba(0,51,153,0.8)
+      mapBorderColor : '#FFF', // rgba(0,51,153,1)
       mapBorderWidth : 0.25,
-      mapStyles : '#TR, #DE, #IT, #AU, #HU, #PT, #CH, #ES, #UK, #BE, #PL, #AT, #GR, #NL { fill: #e1f3fd; }'
+      mapStyles : '#TR, #DE, #IT, #AU, #HU, #PT, #CH, #ES, #UK, #BE, #PL, #AT, #GR, #NL { fill: #3391ebaa; }' // fill: #e1f3fd;
     } );
 
     // collapse cluster on click
@@ -61,15 +61,17 @@
         if ( ! markers[i].clusteredMarkers ) { // single marker
           var marker = myearth.addMarker( {
             mesh : "Star",
-            color: '#ffcc00',
+            color: '#FFCC00',
             location : markers[i].location,
-            scale: 0.35,
+            scale: 0.25, // 0.35
             hotspot: true,
-            hotspotRadius : 0.75,
+            hotspotRadius : 0.5, // 0.75
             hotspotHeight : 0.1,
 
             // custom properties
             title : markers[i].title,
+            manager : markers[i].manager,
+            email : markers[i].email,
             link : markers[i].link
           } );
 
@@ -79,60 +81,53 @@
         } else { // cluster of markers
           var cluster = this.addMarker( {
             mesh : "Star",
-            color: '#ffcc00',
+            color: 'orange',
             location : markers[i].location,
-            scale: 0.5 + markers[i].clusteredMarkers.length * 0.03,
+            scale: 0.35, // 0.5 + markers[i].clusteredMarkers.length * 0.03
             hotspot: true,
             hotspotRadius : 0.5,
             hotspotHeight : 0.1,						
 
             // custom properties
-            originalScale: 0.5 + markers[i].clusteredMarkers.length * 0.03,
+            originalScale: 0.35, // 0.5 + markers[i].clusteredMarkers.length * 0.03
             title : markers[i].title,
+            manager : markers[i].manager,
+            email : markers[i].email,
+            link : markers[i].link,
             clusteredMarkers: []
           } );
 
           cluster.addEventListener('click', expandCluster);
-                    
-                    
-                    // add clusteredMarkers
-                    
-                    for ( var j=0; j < markers[i].clusteredMarkers.length; j++ ) {
-                    
-                        var marker = myearth.addMarker( {
-                        
-                            mesh : "Star",
-                            color: '#ffcc00',
-                            location : markers[i].location,
-                            scale: 0.2,
-                            hotspot: true,
-                            hotspotRadius : 0.5,
-                            hotspotHeight : 0.1,
-                            visible : false,
-                            
-                            // custom properties
-                            title : markers[i].clusteredMarkers[j].title,
-                            logo : markers[i].clusteredMarkers[j].logo,
-                            manager : markers[i].clusteredMarkers[j].manager,
-                            email : markers[i].clusteredMarkers[j].email,
-                            link : markers[i].clusteredMarkers[j].link,
-                            clusterLocation: markers[i].location,
-                            markerLocation: markers[i].clusteredMarkers[j].location
-                            
-                        } );
-                        
-                        marker.addEventListener('click', openLink);
-                        marker.addEventListener('mouseover', enterMarker);
-                        marker.addEventListener('mouseout',  leaveMarker);
-                        
-                        cluster.clusteredMarkers.push( marker );
-                        
-                    }
+              // add clusteredMarkers
+              for ( var j=0; j < markers[i].clusteredMarkers.length; j++ ) {
+                var marker = myearth.addMarker( {
+                  mesh : "Star",
+                  color: '#FFCC00',
+                  location : markers[i].location,
+                  scale: 0.15, // 0.2
+                  hotspot: true,
+                  hotspotRadius : 0.5,
+                  hotspotHeight : 0.1,
+                  visible : false,
+                  
+                  // custom properties
+                  title : markers[i].clusteredMarkers[j].title,
+                  logo : markers[i].clusteredMarkers[j].logo,
+                  manager : markers[i].clusteredMarkers[j].manager,
+                  email : markers[i].clusteredMarkers[j].email,
+                  link : markers[i].clusteredMarkers[j].link,
+                  clusterLocation: markers[i].location,
+                  markerLocation: markers[i].clusteredMarkers[j].location
+                } );
                 
-                }
+                marker.addEventListener('click', openLink);
+                marker.addEventListener('mouseover', enterMarker);
+                marker.addEventListener('mouseout',  leaveMarker);
                 
+                cluster.clusteredMarkers.push( marker );
+              }
             }
-            
+          }
         } );
     
     } );
@@ -200,7 +195,7 @@
     function enterMarker() {
       if ( goto_transition ) return; // no tooltips during zoom
       tooltip.location = this.location;
-      tooltip.content = this.title;
+      tooltip.content = 'Community: ' + this.title + '\n' + 'Manager: ' + this.manager + '\n' + 'Email: ' + this.email + '\n' + 'Website: ' + this.link;
       tooltip.element.style.marginTop = '-' + String(this.scale*0.5 + 0.75) + 'em';
       tooltip.visible = true;
     }
@@ -216,8 +211,7 @@
 </head>
 
 <body>
-
-  <a id="back-link" href="../">
+  <a id="back-link" href="https://nevcanuludas.github.io/gue-community/">
     <img src="./img/logo.png" alt="GUE Community">
   </a>
 
@@ -236,11 +230,11 @@
     </div>
   </div>
 
-  <div id="legal-footer-wrap">
+  <footer id="legal-footer-wrap">
     <div id="legal-footer">
-      <a href="./privacy.htm">Privacy Policy</a> <a href="./legal.htm">Legal Notice</a>
+      <a href="#">Privacy Policy</a> <a href="#">Legal Notice</a>
     </div>
-  </div>
+  </footer>
 
 </body>
 </html>
