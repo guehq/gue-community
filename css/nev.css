@@ -12,15 +12,22 @@ body {
 }
 
 .landing-page {
-  margin: 0;
-  padding: 1px 0;
+  margin: 0 auto;
+  padding: 25vh 0 6em;
+  color: white;
+  line-height: 1.5em;
 }
 
 .landing-page h1 {
-  color: white;
   font-size: 4.5em !important;
   text-align: center;
-  margin: 4em 0 2em;
+}
+
+.landing-page p {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1200px;
+  text-align: center;
 }
 
 #legal-footer-wrap {
@@ -28,4 +35,8 @@ body {
   bottom: 0;
   right: 0;
   width: 100%;
+}
+
+#legal-footer a:hover {
+  color: gold;
 }

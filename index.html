@@ -59,25 +59,67 @@
       // add markers
       for ( var i=0; i < markers.length; i++ ) {
         if ( ! markers[i].clusteredMarkers ) { // single marker
-          var marker = myearth.addMarker( {
-            mesh : "Star",
-            color: '#FFCC00',
-            location : markers[i].location,
-            scale: 0.25, // 0.35
-            hotspot: true,
-            hotspotRadius : 0.5, // 0.75
-            hotspotHeight : 0.1,
+          if ( markers[i].type == 'diveCenter' ) {
+            var marker = myearth.addMarker( {
+              mesh : "Star",
+              color: 'blue',
+              location : markers[i].location,
+              scale: 0.25, // 0.35
+              hotspot: true,
+              hotspotRadius : 0.5, // 0.75
+              hotspotHeight : 0.1,
 
-            // custom properties
-            title : markers[i].title,
-            manager : markers[i].manager,
-            email : markers[i].email,
-            link : markers[i].link
-          } );
+              // custom properties
+              title : markers[i].title,
+              poc : markers[i].poc,
+              email : markers[i].email,
+              link : markers[i].link
+            } );
 
-          marker.addEventListener('click', openLink);
-          marker.addEventListener('mouseover', enterMarker);
-          marker.addEventListener('mouseout',  leaveMarker);
+            marker.addEventListener('click', openLink);
+            marker.addEventListener('mouseover', enterMarker);
+            marker.addEventListener('mouseout',  leaveMarker);
+          } else if ( markers[i].type == 'premiumDiveCenter' ) {
+            var marker = myearth.addMarker( {
+              mesh : "Star",
+              color: 'green',
+              location : markers[i].location,
+              scale: 0.25, // 0.35
+              hotspot: true,
+              hotspotRadius : 0.5, // 0.75
+              hotspotHeight : 0.1,
+
+              // custom properties
+              title : markers[i].title,
+              poc : markers[i].poc,
+              email : markers[i].email,
+              link : markers[i].link
+            } );
+
+            marker.addEventListener('click', openLink);
+            marker.addEventListener('mouseover', enterMarker);
+            marker.addEventListener('mouseout',  leaveMarker);
+          } else {
+            var marker = myearth.addMarker( {
+              mesh : "Star",
+              color: '#FFCC00',
+              location : markers[i].location,
+              scale: 0.25, // 0.35
+              hotspot: true,
+              hotspotRadius : 0.5, // 0.75
+              hotspotHeight : 0.1,
+
+              // custom properties
+              title : markers[i].title,
+              poc : markers[i].poc,
+              email : markers[i].email,
+              link : markers[i].link
+            } );
+
+            marker.addEventListener('click', openLink);
+            marker.addEventListener('mouseover', enterMarker);
+            marker.addEventListener('mouseout',  leaveMarker);
+          }
         } else { // cluster of markers
           var cluster = this.addMarker( {
             mesh : "Star",
@@ -91,7 +133,7 @@
             // custom properties
             originalScale: 0.35, // 0.5 + markers[i].clusteredMarkers.length * 0.03
             title : markers[i].title,
-            manager : markers[i].manager,
+            poc : markers[i].poc,
             email : markers[i].email,
             link : markers[i].link,
             clusteredMarkers: []
@@ -113,7 +155,7 @@
                   // custom properties
                   title : markers[i].clusteredMarkers[j].title,
                   logo : markers[i].clusteredMarkers[j].logo,
-                  manager : markers[i].clusteredMarkers[j].manager,
+                  poc : markers[i].clusteredMarkers[j].poc,
                   email : markers[i].clusteredMarkers[j].email,
                   link : markers[i].clusteredMarkers[j].link,
                   clusterLocation: markers[i].location,
@@ -195,7 +237,7 @@
     function enterMarker() {
       if ( goto_transition ) return; // no tooltips during zoom
       tooltip.location = this.location;
-      tooltip.content = 'Community: ' + this.title + '\n' + 'Manager: ' + this.manager + '\n' + 'Email: ' + this.email + '\n' + 'Website: ' + this.link;
+      tooltip.content = 'Community: ' + this.title + '\n' + 'Contact: ' + this.poc + '\n' + 'Email: ' + this.email + '\n' + 'Website: ' + this.link;
       tooltip.element.style.marginTop = '-' + String(this.scale*0.5 + 0.75) + 'em';
       tooltip.visible = true;
     }
@@ -212,17 +254,18 @@
 
 <body>
   <a id="back-link" href="https://nevcanuludas.github.io/gue-community/">
-    <img src="./img/logo.png" alt="GUE Community">
+    <img src="./img/GUE_Icon_Community_FINAL.png" alt="GUE Community">
   </a>
 
   <div class="landing-page">
     <h1>One World One Community!</h1>
+    <p>Global Underwater Explorers has always aimed to harness the benefit of local and global communities dedicated to exploration and conservation. These communities combine teamwork with experienced divers who are often working toward project goals, but who also provide support to newer divers. Whatever your passion in diving, sharing it with a like-minded community can lead to lifelong friendships, which is one of the most significant benefits of diving within a community.</p>
   </div>
 
   <div class="globe">
     <div id="zoom-out" onclick="zoomOut(); event.stopPropagation();"></div>
     <div id="myearth" class="earth-container earth-ready">
-      <canvas width="1077" height="796" style="display: block; width: 1077px; height: 796px;"></canvas>
+      <canvas width="1200" height="796" style="display: block; width: 1200px; height: 796px;"></canvas>
       
       <div class="earth-overlay earth-overlay-left" style="display: none; z-index: 1010;">
         <div class="tooltip"></div>
@@ -232,7 +275,9 @@
 
   <footer id="legal-footer-wrap">
     <div id="legal-footer">
-      <a href="http://nevcan.com/" target="_blank">Designed by Nev</a> <a href="#">Privacy Policy</a> <a href="#">Legal Notice</a>
+      <a href="http://nevcan.com/" target="_blank">Designed by Nev</a>
+      <a href="https://www.gue.com/gue-community" target="_blank">More Information</a>
+      <a href="mailto:community@gue.com">Get in Touch</a>
     </div>
   </footer>
 
