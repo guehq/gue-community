@@ -1,4 +1,4 @@
 # gue-community
 [Preview](https://guehq.github.io/gue-community/)
 
-![reader](https://guehq.github.io/gue-community/img/ScreenShot.png?raw=true)
+![reader](https://github.com/guehq/.github/blob/main/gue-community.png?raw=true)
