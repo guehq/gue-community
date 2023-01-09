@@ -411,9 +411,9 @@ markers = [
     title: 'Dive Alaska',
     logo: '',
     poc: '',
-    email: '',
-    link: '',
-    location: { lat: 25.12, lng: 55.29 }
+    email: 'info@divealaska.net',
+    link: 'http://divealaska.net',
+    location: { lat: 61.15648859839376, lng: -149.86460305715872 }
   },
   {
     type: 'diveCenter',
@@ -421,8 +421,8 @@ markers = [
     logo: '',
     poc: '',
     email: '',
-    link: '',
-    location: { lat: 25.12, lng: 55.29 }
+    link: 'http://diveolution.com',
+    location: { lat: 50.868990774609635, lng: 4.735199499609247 }
   },
   {
     type: 'diveCenter',
@@ -430,8 +430,8 @@ markers = [
     logo: '',
     poc: '',
     email: '',
-    link: '',
-    location: { lat: 25.12, lng: 55.29 }
+    link: 'https://www.faszination-tauchsport.de',
+    location: { lat: 47.96896489560734, lng: 11.661459869358467 }
   },
   {
     type: 'diveCenter',
@@ -439,80 +439,80 @@ markers = [
     logo: '',
     poc: '',
     email: '',
-    link: '',
-    location: { lat: 25.12, lng: 55.29 }
+    link: 'https://freestyledivers.me',
+    location: { lat: 25.60076579262935, lng: 56.340163011103655 }
   },
   {
     type: 'diveCenter',
     title: 'Hollywood Divers',
     logo: '',
     poc: '',
-    email: '',
-    link: '',
-    location: { lat: 25.12, lng: 55.29 }
+    email: 'info@hollywooddivers.com',
+    link: 'https://hollywooddivers.com',
+    location: { lat: 34.133972069589696, lng: -118.35818145987447 }
   },
   {
     type: 'diveCenter',
     title: 'Islas Hormigas',
     logo: '',
     poc: '',
-    email: '',
-    link: '',
-    location: { lat: 25.12, lng: 55.29 }
+    email: 'islashormigas@islashormigas.com',
+    link: 'https://islashormigas.com',
+    location: { lat: 37.6319982326426, lng: -0.7002479038682013 }
   },
   {
     type: 'diveCenter',
     title: 'Kasai Village Dive Academy',
     logo: '',
     poc: '',
-    email: '',
-    link: '',
-    location: { lat: 25.12, lng: 55.29 }
+    email: 'info@kasaivillage.com',
+    link: 'https://www.scubadivingphilippines.com',
+    location: { lat: 9.96209239898119, lng: 123.36954052623656 }
   },
   {
     type: 'diveCenter',
     title: 'KrakenDive',
     logo: '',
     poc: '',
-    email: '',
-    link: '',
-    location: { lat: 25.12, lng: 55.29 }
+    email: 'krakendive@krakendive.com',
+    link: 'https://krakendive.com',
+    location: { lat: 41.7226790340908, lng: 2.938720069165397 }
   },
   {
     type: 'diveCenter',
     title: 'Krnicadive',
     logo: '',
     poc: '',
-    email: '',
-    link: '',
-    location: { lat: 25.12, lng: 55.29 }
+    email: 'info@krnica.com',
+    link: 'http://www.krnica.com',
+    location: { lat: 44.9540170342283, lng: 14.035895726933605 }
   },
   {
     type: 'diveCenter',
     title: 'Moby Tek Dive Centre',
     logo: '',
     poc: '',
-    email: '',
-    link: '',
-    location: { lat: 25.12, lng: 55.29 }
+    email: 'info@moby-tek.com',
+    link: 'https://www.moby-tek.com',
+    location: { lat: 2.8353216706623567, lng: 104.16047039736642 }
   },
   {
     type: 'diveCenter',
     title: 'Ocean Blue Wave',
     logo: '',
     poc: '',
-    email: '',
-    link: '',
-    location: { lat: 25.12, lng: 55.29 }
+    email: 'info@oceanbluewave.co.th',
+    link: 'https://oceanbluewave.co.th',
+    location: { lat: 13.74718177633435, lng: 100.58085018209356 }
   },
   {
     type: 'diveCenter',
     title: 'Red Sea Explorers',
     logo: '',
-    poc: '',
-    email: '',
-    link: '',
-    location: { lat: 25.12, lng: 55.29 }
+    poc: 'Faisal Khalaf',
+    email: 'info@redseaexplorers.com',
+    link: 'https://www.redseaexplorers.com',
+    location: { lat: 27.22528619199866, lng: 33.84029039402871 }
   },
   {
     type: 'diveCenter',
@@ -520,52 +520,52 @@ markers = [
     logo: '',
     poc: '',
     email: '',
-    link: '',
-    location: { lat: 25.12, lng: 55.29 }
+    link: 'https://www.pattaya-scuba-adventures.com',
+    location: { lat: 12.91759576423526, lng: 100.8787561210157 }
   },
   {
     type: 'diveCenter',
     title: 'Scuba Seekers',
     logo: '',
-    poc: '',
-    email: '',
-    link: '',
-    location: { lat: 25.12, lng: 55.29 }
+    poc: 'Sameh Sokar',
+    email: 'info@scubaseekers.com',
+    link: 'https://scubaseekers.com',
+    location: { lat: 28.495986663502702, lng: 34.51627205533885 }
   },
   {
     type: 'diveCenter',
     title: 'Tauchen und Freizeit',
     logo: '',
     poc: '',
-    email: '',
-    link: '',
-    location: { lat: 25.12, lng: 55.29 }
+    email: 'info@tauchenundfreizeit.de',
+    link: 'https://www.tauchenundfreizeit.de',
+    location: { lat: 51.2642671814586, lng: 7.156291628560691 }
   },
   {
     type: 'diveCenter',
     title: 'Tauchservice Münster',
     logo: '',
     poc: '',
-    email: '',
-    link: '',
-    location: { lat: 25.12, lng: 55.29 }
+    email: 'mail@tauchservice.info',
+    link: 'https://www.tauchservice.info',
+    location: { lat: 51.924700375716284, lng: 7.760466198326716 }
   },
   {
     type: 'diveCenter',
     title: 'Tech Asia',
     logo: '',
     poc: '',
-    email: '',
-    link: '',
-    location: { lat: 25.12, lng: 55.29 }
+    email: 'dave@techasia.ph',
+    link: 'https://techasia.ph',
+    location: { lat: 17.209060349051192, lng: 121.39995530113724 }
   },
   {
     type: 'diveCenter',
     title: 'Emperor Divers',
     logo: '',
     poc: '',
-    email: '',
-    link: '',
-    location: { lat: 25.12, lng: 55.29 }
+    email: 'info@emperordivers.com',
+    link: 'https://www.emperordivers.com',
+    location: { lat: 27.332821405756963, lng: 33.846286206455886 }
   }
 ];
