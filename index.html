@@ -21,8 +21,8 @@
       location: { lat: 47.5, lng: 10 },
       
       zoom: 1.15, // 1.15
-      zoomMin: 1.15, // 1
-      zoomMax: 2, // 1.8
+      zoomMin: 1, // 1
+      zoomMax: 2.6, // 1.8
       quality: ( window.innerWidth <= 1024 ) ? 4 : 5,
       light: 'simple',
       
@@ -30,7 +30,7 @@
       mapLandColor : '#1e2225', //#7193cb
       mapSeaColor : '#3391eb', // rgba(0,51,153,0.8)
       mapBorderColor : '#FFF', // rgba(0,51,153,1)
-      mapBorderWidth : 0.25,
+      mapBorderWidth : .15, // 0.25,
       mapStyles : '#TR, #DE, #IT, #AU, #HU, #PT, #CH, #ES, #GB, #BE, #PL, #AT, #GR, #NL, #AE, #EG { fill: #1e2225bb; }' // fill: #e1f3fd;
       // https://www.iban.com/country-codes --> 2 letter of country codes list
     } );
@@ -45,7 +45,7 @@
     // setup
     myearth.addEventListener( "ready", function() {
       
-      // add tooltip overlay      
+      // add tooltip overlay (community information tooltip)   
       tooltip = this.addOverlay( {
         className : 'tooltip',
         visible : true,
@@ -63,9 +63,9 @@
           if ( markers[i].type == 'diveCenter' ) {
             var marker = myearth.addMarker( {
               mesh : "Star",
-              color: 'blue',
+              color: '#babe82',
               location : markers[i].location,
-              scale: 0.25, // 0.35
+              scale: 0.12, // 0.35
               hotspot: true,
               hotspotRadius : 0.5, // 0.75
               hotspotHeight : 0.1,
@@ -83,9 +83,9 @@
           } else if ( markers[i].type == 'premiumDiveCenter' ) {
             var marker = myearth.addMarker( {
               mesh : "Star",
-              color: 'green',
+              color: '#64947b',
               location : markers[i].location,
-              scale: 0.25, // 0.35
+              scale: 0.12, // 0.35
               hotspot: true,
               hotspotRadius : 0.5, // 0.75
               hotspotHeight : 0.1,
@@ -105,7 +105,7 @@
               mesh : "Star",
               color: '#FFCC00',
               location : markers[i].location,
-              scale: 0.25, // 0.35
+              scale: 0.12, // 0.35
               hotspot: true,
               hotspotRadius : 0.5, // 0.75
               hotspotHeight : 0.1,
@@ -126,13 +126,13 @@
             mesh : "Star",
             color: 'orange',
             location : markers[i].location,
-            scale: 0.35, // 0.5 + markers[i].clusteredMarkers.length * 0.03
+            scale: 0.25, // 0.5 + markers[i].clusteredMarkers.length * 0.03
             hotspot: true,
             hotspotRadius : 0.5,
             hotspotHeight : 0.1,						
 
             // custom properties
-            originalScale: 0.35, // 0.5 + markers[i].clusteredMarkers.length * 0.03
+            originalScale: 0.25, // 0.5 + markers[i].clusteredMarkers.length * 0.03
             title : markers[i].title,
             poc : markers[i].poc,
             email : markers[i].email,
@@ -147,7 +147,7 @@
                   mesh : "Star",
                   color: '#FFCC00',
                   location : markers[i].location,
-                  scale: 0.15, // 0.2
+                  scale: 0.12, // 0.2
                   hotspot: true,
                   hotspotRadius : 0.5,
                   hotspotHeight : 0.1,
@@ -193,8 +193,8 @@
         myearth.draggable  = true; // false
         goto_transition = true;
         myearth.goTo( this.location, { 
-          zoom: 2, // 1.8 
-          duration: 800, // 400 
+          zoom: 2.6, // 1.8 (min: 1, max: 2.6)
+          duration: 2000, // 400 (zoom animation speed)
           easing : 'out-quad', 
           complete: function(){ goto_transition = false; } } );
         
