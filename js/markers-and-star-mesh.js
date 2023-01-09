@@ -1553,7 +1553,7 @@ markers = [
     location: { lat: 51.11751211557289, lng: 10.252610481793429 },
     clusteredMarkers: [
       {
-        title: 'Murner See',
+        title: 'Murner See [Local Community]',
         logo: '',
         poc: '',
         email: '',
@@ -1561,7 +1561,7 @@ markers = [
         location: { lat: 49.35089, lng: 12.20331 }
       },
       {
-        title: 'Hamburg',
+        title: 'Hamburg [Local Community]',
         logo: '',
         poc: '',
         email: '',
@@ -1569,7 +1569,7 @@ markers = [
         location: { lat: 53.55108, lng: 9.99368 }
       },
       {
-        title: 'Hunsfels Tauchen',
+        title: 'Hunsfels Tauchen [Local Community]',
         logo: '',
         poc: '',
         email: '',
@@ -1577,7 +1577,7 @@ markers = [
         location: { lat: 49.94794, lng: 7.76782 }
       },
       {
-        title: 'Berlin',
+        title: 'Berlin [Local Community]',
         logo: '',
         poc: '',
         email: '',
@@ -1585,7 +1585,7 @@ markers = [
         location: { lat: 52.52, lng: 13.40495 }
       },
       {
-        title: 'Wuppertal',
+        title: 'Wuppertal [Local Community]',
         logo: '',
         poc: '',
         email: '',
@@ -1593,7 +1593,7 @@ markers = [
         location: { lat: 51.25621, lng: 7.15076 }
       },
       {
-        title: 'Dresden',
+        title: 'Dresden [Local Community]',
         logo: '',
         poc: '',
         email: '',
@@ -1601,7 +1601,7 @@ markers = [
         location: { lat: 51.0504, lng: 13.73726 }
       },
       {
-        title: 'Aachen',
+        title: 'Aachen [Local Community]',
         logo: '',
         poc: '',
         email: '',
@@ -1609,7 +1609,7 @@ markers = [
         location: { lat: 50.77534, lng: 6.08388 }
       },
       {
-        title: 'Köln',
+        title: 'Köln [Local Community]',
         logo: '',
         poc: '',
         email: '',
@@ -1617,7 +1617,7 @@ markers = [
         location: { lat: 50.93753, lng: 6.96027 }
       },
       {
-        title: 'Bodensee',
+        title: 'Bodensee [Local Community]',
         logo: '',
         poc: '',
         email: '',
@@ -1629,7 +1629,7 @@ markers = [
 
   // Italy
   {
-    title: 'Rom',
+    title: 'Rom [Local Community]',
     logo: '',
     poc: '',
     email: '',
@@ -1639,7 +1639,7 @@ markers = [
 
   // Austria
   {
-    title: 'Wien',
+    title: 'Wien [Local Community]',
     logo: '',
     poc: '',
     email: '',
@@ -1649,7 +1649,7 @@ markers = [
 
   // Hungary
   {
-    title: 'Budapest',
+    title: 'Budapest [Local Community]',
     logo: '',
     poc: '',
     email: '',
@@ -1659,7 +1659,7 @@ markers = [
 
   // Portugal
   {
-    title: 'Lissabon',
+    title: 'Lissabon [Local Community]',
     logo: '',
     poc: '',
     email: '',
@@ -1672,7 +1672,7 @@ markers = [
     location: { lat: 46.77762789947781, lng: 7.850266576996056 },
     clusteredMarkers: [
       {
-        title: 'Zürich',
+        title: 'Zürich [Local Community]',
         logo: '',
         poc: '',
         email: '',
@@ -1680,7 +1680,7 @@ markers = [
         location: { lat: 47.37688, lng: 8.54169 }
       },
       {
-        title: 'Locarno',
+        title: 'Locarno [Local Community]',
         logo: '',
         poc: '',
         email: '',
@@ -1692,7 +1692,7 @@ markers = [
   
   // Spain
   {
-    title: 'Valencia',
+    title: 'Valencia [Local Community]',
     logo: '',
     poc: '',
     email: '',
@@ -1705,7 +1705,7 @@ markers = [
     location: { lat: 54.98219189283883, lng: -2.7080122916294305 },
     clusteredMarkers: [
       {
-        title: 'London',
+        title: 'London [Local Community]',
         logo: '',
         poc: '',
         email: '',
@@ -1713,7 +1713,7 @@ markers = [
         location: { lat: 51.50721, lng: -0.12758 }
       },
       {
-        title: 'Glasgow',
+        title: 'Glasgow [Local Community]',
         logo: '',
         poc: '',
         email: '',
@@ -1908,7 +1908,7 @@ markers = [
   // Dive Centers
   {
     type: 'diveCenter',
-    title: 'Acuatic Tulum Dive Center',
+    title: 'Acuatic Tulum Dive Center [Dive Center]',
     logo: '',
     poc: '',
     email: 'booking@acuatictulum.com',
@@ -1917,7 +1917,7 @@ markers = [
   },
   {
     type: 'diveCenter',
-    title: 'Buddy Dive Resort',
+    title: 'Buddy Dive Resort [Dive Center]',
     logo: '',
     poc: '',
     email: 'info@buddydive.com',
@@ -1926,7 +1926,7 @@ markers = [
   },
   {
     type: 'diveCenter',
-    title: 'Dive Alaska',
+    title: 'Dive Alaska [Dive Center]',
     logo: '',
     poc: '',
     email: 'info@divealaska.net',
@@ -1935,7 +1935,7 @@ markers = [
   },
   {
     type: 'diveCenter',
-    title: 'Diveolution',
+    title: 'Diveolution [Dive Center]',
     logo: '',
     poc: '',
     email: '',
@@ -1944,7 +1944,7 @@ markers = [
   },
   {
     type: 'diveCenter',
-    title: 'Faszination-Tauchsport',
+    title: 'Faszination-Tauchsport [Dive Center]',
     logo: '',
     poc: '',
     email: '',
@@ -1953,7 +1953,7 @@ markers = [
   },
   {
     type: 'diveCenter',
-    title: 'Freestyle Divers',
+    title: 'Freestyle Divers [Dive Center]',
     logo: '',
     poc: '',
     email: '',
@@ -1962,7 +1962,7 @@ markers = [
   },
   {
     type: 'diveCenter',
-    title: 'Hollywood Divers',
+    title: 'Hollywood Divers [Dive Center]',
     logo: '',
     poc: '',
     email: 'info@hollywooddivers.com',
@@ -1971,7 +1971,7 @@ markers = [
   },
   {
     type: 'diveCenter',
-    title: 'Islas Hormigas',
+    title: 'Islas Hormigas [Dive Center]',
     logo: '',
     poc: '',
     email: 'islashormigas@islashormigas.com',
@@ -1980,7 +1980,7 @@ markers = [
   },
   {
     type: 'diveCenter',
-    title: 'Kasai Village Dive Academy',
+    title: 'Kasai Village Dive Academy [Dive Center]',
     logo: '',
     poc: '',
     email: 'info@kasaivillage.com',
@@ -1989,7 +1989,7 @@ markers = [
   },
   {
     type: 'diveCenter',
-    title: 'KrakenDive',
+    title: 'KrakenDive [Dive Center]',
     logo: '',
     poc: '',
     email: 'krakendive@krakendive.com',
@@ -1998,7 +1998,7 @@ markers = [
   },
   {
     type: 'diveCenter',
-    title: 'Krnicadive',
+    title: 'Krnicadive [Dive Center]',
     logo: '',
     poc: '',
     email: 'info@krnica.com',
@@ -2007,7 +2007,7 @@ markers = [
   },
   {
     type: 'diveCenter',
-    title: 'Moby Tek Dive Centre',
+    title: 'Moby Tek Dive Centre [Dive Center]',
     logo: '',
     poc: '',
     email: 'info@moby-tek.com',
@@ -2016,7 +2016,7 @@ markers = [
   },
   {
     type: 'diveCenter',
-    title: 'Ocean Blue Wave',
+    title: 'Ocean Blue Wave [Dive Center]',
     logo: '',
     poc: '',
     email: 'info@oceanbluewave.co.th',
@@ -2025,7 +2025,7 @@ markers = [
   },
   {
     type: 'diveCenter',
-    title: 'Red Sea Explorers',
+    title: 'Red Sea Explorers [Dive Center]',
     logo: '',
     poc: 'Faisal Khalaf',
     email: 'info@redseaexplorers.com',
@@ -2034,7 +2034,7 @@ markers = [
   },
   {
     type: 'diveCenter',
-    title: 'Scuba Adventures',
+    title: 'Scuba Adventures [Dive Center]',
     logo: '',
     poc: '',
     email: '',
@@ -2043,7 +2043,7 @@ markers = [
   },
   {
     type: 'diveCenter',
-    title: 'Scuba Seekers',
+    title: 'Scuba Seekers [Dive Center]',
     logo: '',
     poc: 'Sameh Sokar',
     email: 'info@scubaseekers.com',
@@ -2052,7 +2052,7 @@ markers = [
   },
   {
     type: 'diveCenter',
-    title: 'Tauchen und Freizeit',
+    title: 'Tauchen und Freizeit [Dive Center]',
     logo: '',
     poc: '',
     email: 'info@tauchenundfreizeit.de',
@@ -2061,7 +2061,7 @@ markers = [
   },
   {
     type: 'diveCenter',
-    title: 'Tauchservice Münster',
+    title: 'Tauchservice Münster [Dive Center]',
     logo: '',
     poc: '',
     email: 'mail@tauchservice.info',
@@ -2070,7 +2070,7 @@ markers = [
   },
   {
     type: 'diveCenter',
-    title: 'Tech Asia',
+    title: 'Tech Asia [Dive Center]',
     logo: '',
     poc: '',
     email: 'dave@techasia.ph',
@@ -2079,7 +2079,7 @@ markers = [
   },
   {
     type: 'diveCenter',
-    title: 'Emperor Divers',
+    title: 'Emperor Divers [Dive Center]',
     logo: '',
     poc: '',
     email: 'info@emperordivers.com',
