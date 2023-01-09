@@ -13,7 +13,7 @@ body {
 
 .landing-page {
   margin: 0 auto;
-  padding: 25vh 0 6em;
+  padding: 25vh 0 4em;
   color: white;
   line-height: 1.5em;
 }
@@ -30,13 +30,18 @@ body {
   text-align: center;
 }
 
+.landing-page a {
+  color: orange;
+  text-decoration: none;
+}
+
 #legal-footer-wrap {
   position: fixed ;
-  bottom: 0;
   right: 0;
+  bottom: 0;
   width: 100%;
 }
 
 #legal-footer a:hover {
-  color: gold;
+  color: orange;
 }
