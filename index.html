@@ -17,13 +17,14 @@
   <script>
   
   window.addEventListener( "earthjsload", function() {
+    let zoom_based_rescale_factor = 10;
     myearth = new Earth( document.getElementById('myearth'), {
       location: { lat: 47.5, lng: 10 },
       
-      zoom: 1.15, // 1.15
+      zoom: 1.2, // 1.15
       zoomMin: 1, // 1
       zoomMax: 2.6, // 1.8
-      quality: ( window.innerWidth <= 1024 ) ? 4 : 5,
+      quality: ( window.innerWidth <= 4096 ) ? 4 : 5,
       light: 'simple',
       
       transparent: true,		
@@ -31,7 +32,7 @@
       mapSeaColor : '#3391eb', // rgba(0,51,153,0.8)
       mapBorderColor : '#FFF', // rgba(0,51,153,1)
       mapBorderWidth : .15, // 0.25,
-      mapStyles : '#TR, #DE, #IT, #AU, #HU, #PT, #CH, #ES, #GB, #BE, #PL, #AT, #GR, #NL, #AE, #EG { fill: #1e2225bb; }' // fill: #e1f3fd;
+      mapStyles : '#TR, #DE, #IT, #AU, #HU, #PT, #CH, #ES, #GB, #BE, #PL, #AT, #GR, #NL, #AE, #EG, #US, #CA { fill: #1e2225bb; }' // fill: #e1f3fd;
       // https://www.iban.com/country-codes --> 2 letter of country codes list
     } );
 
@@ -56,18 +57,19 @@
 
       // add star mesh
       Earth.addMesh( star_mesh );
+      Earth.addMesh( circle_mesh );
 
       // add markers
       for ( var i=0; i < markers.length; i++ ) {
         if ( ! markers[i].clusteredMarkers ) { // single marker
           if ( markers[i].type == 'diveCenter' ) {
             var marker = myearth.addMarker( {
-              mesh : "Star",
+              mesh : "Circle",
               color: '#babe82',
               location : markers[i].location,
-              scale: 0.12, // 0.35
+              scale: .1 / zoom_based_rescale_factor, // .35
               hotspot: true,
-              hotspotRadius : 0.5, // 0.75
+              hotspotRadius : 2.5, // .75
               hotspotHeight : 0.1,
 
               // custom properties
@@ -82,12 +84,12 @@
             marker.addEventListener('mouseout',  leaveMarker);
           } else if ( markers[i].type == 'premiumDiveCenter' ) {
             var marker = myearth.addMarker( {
-              mesh : "Star",
+              mesh : "Circle",
               color: '#64947b',
               location : markers[i].location,
-              scale: 0.12, // 0.35
+              scale: .1 / zoom_based_rescale_factor, // .35
               hotspot: true,
-              hotspotRadius : 0.5, // 0.75
+              hotspotRadius : 2.5, // .75
               hotspotHeight : 0.1,
 
               // custom properties
@@ -102,12 +104,12 @@
             marker.addEventListener('mouseout',  leaveMarker);
           } else {
             var marker = myearth.addMarker( {
-              mesh : "Star",
+              mesh : "Circle",
               color: '#FFCC00',
               location : markers[i].location,
-              scale: 0.12, // 0.35
+              scale: .1 / zoom_based_rescale_factor, // .35
               hotspot: true,
-              hotspotRadius : 0.5, // 0.75
+              hotspotRadius : 2.5, // .75
               hotspotHeight : 0.1,
 
               // custom properties
@@ -124,9 +126,9 @@
         } else { // cluster of markers
           var cluster = this.addMarker( {
             mesh : "Star",
-            color: 'orange',
+            color: 'gold',
             location : markers[i].location,
-            scale: 0.25, // 0.5 + markers[i].clusteredMarkers.length * 0.03
+            scale: 0.1 + markers[i].clusteredMarkers.length * 0.04, // 0.5 + markers[i].clusteredMarkers.length * 0.03
             hotspot: true,
             hotspotRadius : 0.5,
             hotspotHeight : 0.1,						
@@ -144,12 +146,12 @@
               // add clusteredMarkers
               for ( var j=0; j < markers[i].clusteredMarkers.length; j++ ) {
                 var marker = myearth.addMarker( {
-                  mesh : "Star",
-                  color: '#FFCC00',
+                  mesh : "Circle",
+                  color: 'gold',
                   location : markers[i].location,
-                  scale: 0.12, // 0.2
+                  scale: .1 / zoom_based_rescale_factor, // .2
                   hotspot: true,
-                  hotspotRadius : 0.5,
+                  hotspotRadius : 2.5, // .75
                   hotspotHeight : 0.1,
                   visible : false,
                   
@@ -193,10 +195,11 @@
         myearth.draggable  = true; // false
         goto_transition = true;
         myearth.goTo( this.location, { 
-          zoom: 2.6, // 1.8 (min: 1, max: 2.6)
+          zoom: 2.5, // 1.8 (min: 1, max: 2.6)
           duration: 2000, // 400 (zoom animation speed)
           easing : 'out-quad', 
-          complete: function(){ goto_transition = false; } } );
+          complete: function () { goto_transition = false; } 
+        } );
         
         // show clusteredMarkers
         for ( var i=0; i < this.clusteredMarkers.length; i++ ) {
@@ -232,7 +235,7 @@
 
     function zoomOut() {
       collapseCluster();
-      myearth.animate( 'zoom', 1.15, { relativeDuration: 100 } );
+      myearth.animate( 'zoom', 1.2, { relativeDuration: 100 } );
     }
 
     function enterMarker() {
