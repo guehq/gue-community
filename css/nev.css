@@ -45,3 +45,11 @@ body {
 #legal-footer a:hover {
   color: orange;
 }
+
+#legal-footer-wrap #filter {
+  position: absolute;
+  bottom: .5em;
+  left: .5em;
+  font-size: 12px;
+  color: #FFF;
+}
