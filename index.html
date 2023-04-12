@@ -27,7 +27,7 @@
       quality: ( window.innerWidth <= 4096 ) ? 4 : 5,
       light: 'simple',
       
-      transparent: true,		
+      transparent: true,
       mapLandColor : '#1e2225', //#7193cb
       mapSeaColor : '#3391eb', // rgba(0,51,153,0.8)
       mapBorderColor : '#FFF', // rgba(0,51,153,1)
@@ -41,19 +41,19 @@
       if ( current_cluster && ! goto_transition ) {
         zoomOut();
       }
-    } );
+    });
 
     // setup
     myearth.addEventListener( "ready", function() {
       
-      // add tooltip overlay (community information tooltip)   
+      // add tooltip overlay (community information tooltip)
       tooltip = this.addOverlay( {
         className : 'tooltip',
         visible : true,
         containerScale : 0.2,
         zoomScale : 0,
         depthScale : 0.4
-      } );
+      });
 
       // add star mesh
       Earth.addMesh( star_mesh );
@@ -77,11 +77,11 @@
               poc : markers[i].poc,
               email : markers[i].email,
               link : markers[i].link
-            } );
+            });
 
             marker.addEventListener('click', openLink);
             marker.addEventListener('mouseover', enterMarker);
-            marker.addEventListener('mouseout',  leaveMarker);
+            marker.addEventListener('mouseout', leaveMarker);
           } else if ( markers[i].type == 'premiumDiveCenter' ) {
             var marker = myearth.addMarker( {
               mesh : "Circle",
@@ -101,7 +101,7 @@
 
             marker.addEventListener('click', openLink);
             marker.addEventListener('mouseover', enterMarker);
-            marker.addEventListener('mouseout',  leaveMarker);
+            marker.addEventListener('mouseout', leaveMarker);
           } else {
             var marker = myearth.addMarker( {
               mesh : "Circle",
@@ -121,7 +121,7 @@
 
             marker.addEventListener('click', openLink);
             marker.addEventListener('mouseover', enterMarker);
-            marker.addEventListener('mouseout',  leaveMarker);
+            marker.addEventListener('mouseout', leaveMarker);
           }
         } else { // cluster of markers
           var cluster = this.addMarker( {
@@ -131,7 +131,7 @@
             scale: 0.1 + markers[i].clusteredMarkers.length * 0.04, // 0.5 + markers[i].clusteredMarkers.length * 0.03
             hotspot: true,
             hotspotRadius : 0.5,
-            hotspotHeight : 0.1,						
+            hotspotHeight : 0.1,
 
             // custom properties
             originalScale: 0.25, // 0.5 + markers[i].clusteredMarkers.length * 0.03
@@ -140,48 +140,46 @@
             email : markers[i].email,
             link : markers[i].link,
             clusteredMarkers: []
-          } );
+          });
 
           cluster.addEventListener('click', expandCluster);
-              // add clusteredMarkers
-              for ( var j=0; j < markers[i].clusteredMarkers.length; j++ ) {
-                var marker = myearth.addMarker( {
-                  mesh : "Circle",
-                  color: 'gold',
-                  location : markers[i].location,
-                  scale: .1 / zoom_based_rescale_factor, // .2
-                  hotspot: true,
-                  hotspotRadius : 2.5, // .75
-                  hotspotHeight : 0.1,
-                  visible : false,
-                  
-                  // custom properties
-                  title : markers[i].clusteredMarkers[j].title,
-                  logo : markers[i].clusteredMarkers[j].logo,
-                  poc : markers[i].clusteredMarkers[j].poc,
-                  email : markers[i].clusteredMarkers[j].email,
-                  link : markers[i].clusteredMarkers[j].link,
-                  clusterLocation: markers[i].location,
-                  markerLocation: markers[i].clusteredMarkers[j].location
-                } );
-                
-                marker.addEventListener('click', openLink);
-                marker.addEventListener('mouseover', enterMarker);
-                marker.addEventListener('mouseout',  leaveMarker);
-                
-                cluster.clusteredMarkers.push( marker );
-              }
-            }
+
+          // add clusteredMarkers
+          for ( var j=0; j < markers[i].clusteredMarkers.length; j++ ) {
+            var marker = myearth.addMarker( {
+              mesh : "Circle",
+              color: 'gold',
+              location : markers[i].location,
+              scale: .1 / zoom_based_rescale_factor, // .2
+              hotspot: true,
+              hotspotRadius : 2.5, // .75
+              hotspotHeight : 0.1,
+              visible : false,
+              
+              // custom properties
+              title : markers[i].clusteredMarkers[j].title,
+              logo : markers[i].clusteredMarkers[j].logo,
+              poc : markers[i].clusteredMarkers[j].poc,
+              email : markers[i].clusteredMarkers[j].email,
+              link : markers[i].clusteredMarkers[j].link,
+              clusterLocation: markers[i].location,
+              markerLocation: markers[i].clusteredMarkers[j].location
+            });
+              
+            marker.addEventListener('click', openLink);
+            marker.addEventListener('mouseover', enterMarker);
+            marker.addEventListener('mouseout', leaveMarker);
+            
+            cluster.clusteredMarkers.push( marker );
           }
-        } );
-    
-    } );
-    
-    
-    
-    var current_cluster, goto_transition;
-    
-    function expandCluster() {
+        }
+      }
+    });
+  });
+
+  var current_cluster, goto_transition;
+
+  function expandCluster() {
     
         // collapse other clusters
         if ( current_cluster ) {
@@ -192,7 +190,7 @@
         this.animate( 'scale', 0.001, { duration: 200 } );
     
         // go to and zoom earth
-        myearth.draggable  = true; // false
+        myearth.draggable = true; // false
         goto_transition = true;
         myearth.goTo( this.location, { 
           zoom: 2.5, // 1.8 (min: 1, max: 2.6)
@@ -229,7 +227,7 @@
         current_cluster = false;
         
         document.body.classList.remove('cluster-open');
-        myearth.draggable  = true;
+        myearth.draggable = true;
         
     }
 
