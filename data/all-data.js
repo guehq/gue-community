@@ -1,44 +1,124 @@
 markers = [
   {
-    "country": "Turkiye",
-    "location": { 
-      "lat": 39.206091750600976, 
-      "lng": 35.257515693797146
+    "country": "United United Arab Emirates",
+    "countryCode": "AE",
+    "location": {
+      "lat": 24.45118,
+      "lng": 54.39696
+    },
+    "clusteredMarkers": [
+      {
+        "type": "premiumDiveCenter",
+        "title": "Deep Dive Dubai [Premium Dive Center]",
+        "logo": "",
+        "poc": "Dimitris Fifts",
+        "email": "info@deepdivedubai.com",
+        "link": "https://www.deepdivedubai.com",
+        "location": {
+          "lat": 25.127855026793533,
+          "lng": 55.29512669746564
+        }
+      }
+    ]
+  },
+  {
+    "country": "Austria",
+    "countryCode": "AT",
+    "location": {
+      "lat": 48.20817,
+      "lng": 16.37381
     },
     "clusteredMarkers": [
       {
         "type": "localCommunity",
-        "title": "GUE Turkey",
+        "title": "Wien [Local Community]",
         "logo": "",
-        "poc": "Nevcan Uludaş",
-        "email": "nev@gue.com",
-        "link": "http://gueturkey.com/",
+        "poc": "",
+        "email": "",
+        "link": "",
         "location": {
-          "lat": 41.015137,
-          "lng": 28.979530
+          "lat": 48.20817,
+          "lng": 16.37381
+        }
+      }
+    ]
+  },
+  {
+    "country": "Australia",
+    "countryCode": "AU",
+    "location": {
+      "lat": -33.893597517625224,
+      "lng": 151.26292766902677
+    },
+    "clusteredMarkers": [
+      {
+        "type": "premiumDiveCenter",
+        "title": "Dive Centre Bondi [Premium Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "info@divebondi.com.au",
+        "link": "https://www.divebondi.com.au",
+        "location": {
+          "lat": -33.893597517625224,
+          "lng": 151.26292766902677
+        }
+      }
+    ]
+  },
+  {
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "location": {
+      "lat": 46.77762789947781,
+      "lng": 7.850266576996056
+    },
+    "clusteredMarkers": [
+      {
+        "type": "localCommunity",
+        "title": "Zürich [Local Community]",
+        "logo": "",
+        "poc": "",
+        "email": "",
+        "link": "",
+        "location": {
+          "lat": 47.37688,
+          "lng": 8.54169
         }
       },
       {
         "type": "localCommunity",
-        "title": "GUE Turkey",
+        "title": "Locarno [Local Community]",
         "logo": "",
-        "poc": "Fatih Albayrak",
-        "email": "fatih@gueturkey.com",
-        "link": "http://gueturkey.com/",
+        "poc": "",
+        "email": "",
+        "link": "",
         "location": {
-          "lat": 37.769271305757876,
-          "lng": 30.559353824230723
+          "lat": 46.16699,
+          "lng": 8.79426
         }
       }
     ]
   },
   {
     "country": "Germany",
+    "countryCode": "DE",
     "location": {
       "lat": 51.11751211557289,
       "lng": 10.252610481793429
     },
     "clusteredMarkers": [
+      {
+        "type": "premiumDiveCenter",
+        "title": "Deepstop [Premium Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "shop@deepstop.de",
+        "link": "https://www.deepstop.de/en/",
+        "location": {
+          "lat": 49.40237470514091,
+          "lng": 8.55816781155137
+        }
+      },
       {
         "type": "localCommunity",
         "title": "Murner See [Local Community]",
@@ -150,7 +230,86 @@ markers = [
     ]
   },
   {
+    "country": "Spain",
+    "countryCode": "ES",
+    "location": {
+      "lat": 39.4699,
+      "lng": -0.37628
+    },
+    "clusteredMarkers": [
+      {
+        "type": "localCommunity",
+        "title": "Valencia [Local Community]",
+        "logo": "",
+        "poc": "",
+        "email": "",
+        "link": "",
+        "location": {
+          "lat": 39.4699,
+          "lng": -0.37628
+        }
+      }
+    ]
+  },
+  {
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "location": {
+      "lat": 54.98219189283883,
+      "lng": -2.7080122916294305
+    },
+    "clusteredMarkers": [
+      {
+        "type": "localCommunity",
+        "title": "London [Local Community]",
+        "logo": "",
+        "poc": "",
+        "email": "",
+        "link": "",
+        "location": {
+          "lat": 51.50721,
+          "lng": -0.12758
+        }
+      },
+      {
+        "type": "localCommunity",
+        "title": "Glasgow [Local Community]",
+        "logo": "",
+        "poc": "",
+        "email": "",
+        "link": "",
+        "location": {
+          "lat": 55.86423,
+          "lng": -4.2518
+        }
+      }
+    ]
+  },
+  {
+    "country": "Hungary",
+    "countryCode": "HU",
+    "location": {
+      "lat": 47.49791,
+      "lng": 19.04023
+    },
+    "clusteredMarkers": [
+      {
+        "type": "localCommunity",
+        "title": "Budapest [Local Community]",
+        "logo": "",
+        "poc": "",
+        "email": "",
+        "link": "",
+        "location": {
+          "lat": 47.49791,
+          "lng": 19.04023
+        }
+      }
+    ]
+  },
+  {
     "country": "Italy",
+    "countryCode": "IT",
     "location": {
       "lat": 41.90278,
       "lng": 12.49636
@@ -183,49 +342,30 @@ markers = [
     ]
   },
   {
-    "country": "Austria",
-    "location": {
-      "lat": 48.20817,
-      "lng": 16.37381
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "location": { 
+      "lat": 51.568901673548815,
+      "lng": 5.086470269293292
     },
     "clusteredMarkers": [
       {
-        "type": "localCommunity",
-        "title": "Wien [Local Community]",
+        "type": "premiumDiveCenter",
+        "title": "Duikcentrum de Aalscholvers [Premium Dive Center]",
         "logo": "",
         "poc": "",
-        "email": "",
-        "link": "",
+        "email": "info@aalscholvers.nl",
+        "link": "http://www.aalscholvers.nl/",
         "location": {
-          "lat": 48.20817,
-          "lng": 16.37381
-        }
-      }
-    ]
-  },
-  {
-    "country": "Hungary",
-    "location": {
-      "lat": 47.49791,
-      "lng": 19.04023
-    },
-    "clusteredMarkers": [
-      {
-        "type": "localCommunity",
-        "title": "Budapest [Local Community]",
-        "logo": "",
-        "poc": "",
-        "email": "",
-        "link": "",
-        "location": {
-          "lat": 47.49791,
-          "lng": 19.04023
+          "lat": 51.568901673548815,
+          "lng": 5.086470269293292
         }
       }
     ]
   },
   {
     "country": "Portugal",
+    "countryCode": "PT",
     "location": {
       "lat": 38.72225,
       "lng": -9.13933
@@ -246,88 +386,91 @@ markers = [
     ]
   },
   {
-    "country": "Switzerland",
-    "location": {
-      "lat": 46.77762789947781,
-      "lng": 7.850266576996056
+    "country": "Turkiye",
+    "countryCode": "TR",
+    "location": { 
+      "lat": 39.206091750600976, 
+      "lng": 35.257515693797146
     },
     "clusteredMarkers": [
       {
         "type": "localCommunity",
-        "title": "Zürich [Local Community]",
+        "title": "GUE Turkey",
         "logo": "",
-        "poc": "",
-        "email": "",
-        "link": "",
+        "poc": "Nevcan Uludaş",
+        "email": "nev@gue.com",
+        "link": "http://gueturkey.com/",
         "location": {
-          "lat": 47.37688,
-          "lng": 8.54169
+          "lat": 41.015137,
+          "lng": 28.979530
         }
       },
       {
         "type": "localCommunity",
-        "title": "Locarno [Local Community]",
+        "title": "GUE Turkey",
         "logo": "",
-        "poc": "",
-        "email": "",
-        "link": "",
+        "poc": "Fatih Albayrak",
+        "email": "fatih@gueturkey.com",
+        "link": "http://gueturkey.com/",
         "location": {
-          "lat": 46.16699,
-          "lng": 8.79426
+          "lat": 37.769271305757876,
+          "lng": 30.559353824230723
         }
       }
     ]
   },
   {
-    "country": "Spain",
-    "location": {
-      "lat": 39.4699,
-      "lng": -0.37628
+    "country": "United States of America",
+    "countryCode": "US",
+    "location": { 
+      "lat": 47.2830,
+      "lng": -120.7600
     },
     "clusteredMarkers": [
       {
-        "type": "localCommunity",
-        "title": "Valencia [Local Community]",
+        "type": "premiumDiveCenter",
+        "title": "Eight Diving [Premium Dive Center]",
         "logo": "",
         "poc": "",
-        "email": "",
-        "link": "",
+        "email": "info@8diving.com",
+        "link": "https://www.8diving.com/",
         "location": {
-          "lat": 39.4699,
-          "lng": -0.37628
+          "lat": 47.401578845502456,
+          "lng": -122.32485663084049
+        }
+      },
+      {
+        "type": "premiumDiveCenter",
+        "title": "Extreme Exposure [Premium Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "info@extreme-exposure.com",
+        "link": "http://www.extreme-exposure.com/",
+        "location": {
+          "lat": 29.825308613961422,
+          "lng": -82.59779848895784
         }
       }
     ]
   },
   {
-    "country": "United Kingdom",
-    "location": {
-      "lat": 54.98219189283883,
-      "lng": -2.7080122916294305
+    "country": "Singapore",
+    "countryCode": "SG",
+    "location": { 
+      "lat": 1.2990,
+      "lng": 103.8519
     },
     "clusteredMarkers": [
       {
-        "type": "localCommunity",
-        "title": "London [Local Community]",
+        "type": "premiumDiveCenter",
+        "title": "Living Oceans [Premium Dive Center]",
         "logo": "",
         "poc": "",
-        "email": "",
-        "link": "",
+        "email": "info@livingoceans.com.sg",
+        "link": "http://www.livingoceans.com.sg/",
         "location": {
-          "lat": 51.50721,
-          "lng": -0.12758
-        }
-      },
-      {
-        "type": "localCommunity",
-        "title": "Glasgow [Local Community]",
-        "logo": "",
-        "poc": "",
-        "email": "",
-        "link": "",
-        "location": {
-          "lat": 55.86423,
-          "lng": -4.2518
+          "lat": 1.2990235598463238,
+          "lng": 103.85199115497402
         }
       }
     ]
