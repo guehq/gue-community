@@ -16,7 +16,7 @@ window.addEventListener( "earthjsload", function() {
     mapSeaColor : '#3391eb', // rgba(0,51,153,0.8)
     mapBorderColor : '#FFF', // rgba(0,51,153,1)
     mapBorderWidth : .15, // 0.25,
-    mapStyles : '#AE, #AT, #AU, #BE, #CA, #CH, #DE, #EG, #ES, #GB, #GR, #HU, #IT, #NL, #PL, #PT, #TR, #US, #SG { fill: #1e2225bb; }' // fill: #e1f3fd;
+    mapStyles : '#AE, #AT, #AU, #BE, #CA, #CH, #DE, #EG, #ES, #GB, #GR, #HU, #IT, #NL, #PL, #PT, #TR, #US, #SG, #MY { fill: #1e2225bb; }' // fill: #e1f3fd;
     // https://www.iban.com/country-codes --> 2 letter of country codes list
   });
 

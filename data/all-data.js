@@ -474,5 +474,27 @@ markers = [
         }
       }
     ]
+  },
+  {
+    "country": "Malaysia",
+    "countryCode": "MY",
+    "location": { 
+      "lat": 3.1856,
+      "lng": 101.5992
+    },
+    "clusteredMarkers": [
+      {
+        "type": "premiumDiveCenter",
+        "title": "Living Oceans Malaysia [Premium Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "info@livingoceans.com.my",
+        "link": "http://www.livingoceans.com.my/",
+        "location": {
+          "lat": 3.1856309677566883,
+          "lng": 101.59923123989562
+        }
+      }
+    ]
   }
 ]
