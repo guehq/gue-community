@@ -1,4 +1,4 @@
-[
+markers = [
   {
     "type": "premiumDiveCenter",
     "title": "Base1 Sardinia [Premium Dive Center]",

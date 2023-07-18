@@ -1,4 +1,4 @@
-[
+markers = [
   {
     "country": "Turkiye",
     "location": { 
