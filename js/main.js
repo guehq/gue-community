@@ -44,120 +44,79 @@ window.addEventListener( "earthjsload", function() {
     Earth.addMesh( circle_mesh );
 
     // add markers
-    for ( var i=0; i < markers.length; i++ ) {
-      if ( ! markers[i].clusteredMarkers ) { // single marker
-        if ( markers[i].type == 'diveCenter' ) {
-          var marker = myearth.addMarker( {
-            mesh : "Circle",
-            color: '#babe82',
-            location : markers[i].location,
-            scale: .1 / zoom_based_rescale_factor, // .35
-            hotspot: true,
-            hotspotRadius : 2.5, // .75
-            hotspotHeight : 0.1,
-
-            // custom properties
-            title : markers[i].title,
-            poc : markers[i].poc,
-            email : markers[i].email,
-            link : markers[i].link
-          });
-
-          marker.addEventListener('click', openLink);
-          marker.addEventListener('mouseover', enterMarker);
-          marker.addEventListener('mouseout', leaveMarker);
-        } else if ( markers[i].type == 'premiumDiveCenter' ) {
-          var marker = myearth.addMarker({
-            mesh : "Circle",
-            color: '#64947b',
-            location : markers[i].location,
-            scale: .1 / zoom_based_rescale_factor, // .35
-            hotspot: true,
-            hotspotRadius : 2.5, // .75
-            hotspotHeight : 0.1,
-
-            // custom properties
-            title : markers[i].title,
-            poc : markers[i].poc,
-            email : markers[i].email,
-            link : markers[i].link
-          });
-
-          marker.addEventListener('click', openLink);
-          marker.addEventListener('mouseover', enterMarker);
-          marker.addEventListener('mouseout', leaveMarker);
-        } else {
-          var marker = myearth.addMarker( {
-            mesh : "Circle",
-            color: '#FFCC00',
-            location : markers[i].location,
-            scale: .1 / zoom_based_rescale_factor, // .35
-            hotspot: true,
-            hotspotRadius : 2.5, // .75
-            hotspotHeight : 0.1,
-
-            // custom properties
-            title : markers[i].title,
-            poc : markers[i].poc,
-            email : markers[i].email,
-            link : markers[i].link
-          });
-
-          marker.addEventListener('click', openLink);
-          marker.addEventListener('mouseover', enterMarker);
-          marker.addEventListener('mouseout', leaveMarker);
-        }
-      } else {
-        // cluster of markers
-        var cluster = this.addMarker( {
-          mesh : "Star",
-          color: 'gold',
-          location : markers[i].location,
-          scale: 0.1 + markers[i].clusteredMarkers.length * 0.04, // 0.5 + markers[i].clusteredMarkers.length * 0.03
+    for (var i = 0; i < markers.length; i++) {
+      const { type, location, clusteredMarkers } = markers[i];
+      const scale = 0.1 / zoom_based_rescale_factor;
+      let marker;
+    
+      if (!clusteredMarkers) { // single marker
+        const color = type === 'diveCenter' ? '#babe82' : type === 'premiumDiveCenter' ? '#64947b' : '#FFCC00';
+    
+        marker = myearth.addMarker({
+          mesh: "Circle",
+          color,
+          location,
+          scale,
           hotspot: true,
-          hotspotRadius : 0.5,
-          hotspotHeight : 0.1,
-
-          // custom properties
-          originalScale: 0.25, // 0.5 + markers[i].clusteredMarkers.length * 0.03
-          title : markers[i].title,
-          poc : markers[i].poc,
-          email : markers[i].email,
-          link : markers[i].link,
+          hotspotRadius: 2.5,
+          hotspotHeight: 0.1,
+          title: markers[i].title,
+          poc: markers[i].poc,
+          email: markers[i].email,
+          link: markers[i].link
+        });
+      } else { // cluster of markers
+        const clusterScale = 0.1 + clusteredMarkers.length * 0.04;
+        const cluster = this.addMarker({
+          mesh: "Star",
+          color: 'gold',
+          location,
+          scale: clusterScale,
+          hotspot: true,
+          hotspotRadius: 0.5,
+          hotspotHeight: 0.1,
+          originalScale: 0.25,
+          title: markers[i].title,
+          poc: markers[i].poc,
+          email: markers[i].email,
+          link: markers[i].link,
           clusteredMarkers: []
         });
-
+    
         cluster.addEventListener('click', expandCluster);
-
+    
         // add clusteredMarkers
-        for ( var j=0; j < markers[i].clusteredMarkers.length; j++ ) {
-          var marker = myearth.addMarker( {
-            mesh : "Circle",
-            color: 'gold',
-            location : markers[i].location,
-            scale: .1 / zoom_based_rescale_factor, // .2
+        for (var j = 0; j < clusteredMarkers.length; j++) {
+          const color = clusteredMarkers[j].type === 'diveCenter' ? '#babe82' : clusteredMarkers[j].type === 'premiumDiveCenter' ? '#64947b' : '#FFCC00';
+          marker = myearth.addMarker({
+            mesh: "Circle",
+            color,
+            location,
+            scale: 0.1 / zoom_based_rescale_factor,
             hotspot: true,
-            hotspotRadius : 2.5, // .75
-            hotspotHeight : 0.1,
-            visible : false,
-            
-            // custom properties
-            title : markers[i].clusteredMarkers[j].title,
-            logo : markers[i].clusteredMarkers[j].logo,
-            poc : markers[i].clusteredMarkers[j].poc,
-            email : markers[i].clusteredMarkers[j].email,
-            link : markers[i].clusteredMarkers[j].link,
-            clusterLocation: markers[i].location,
-            markerLocation: markers[i].clusteredMarkers[j].location
+            hotspotRadius: 2.5,
+            hotspotHeight: 0.1,
+            visible: false,
+            title: clusteredMarkers[j].title,
+            logo: clusteredMarkers[j].logo,
+            poc: clusteredMarkers[j].poc,
+            email: clusteredMarkers[j].email,
+            link: clusteredMarkers[j].link,
+            clusterLocation: location,
+            markerLocation: clusteredMarkers[j].location
           });
-            
+    
           marker.addEventListener('click', openLink);
           marker.addEventListener('mouseover', enterMarker);
           marker.addEventListener('mouseout', leaveMarker);
-          
-          cluster.clusteredMarkers.push( marker );
+    
+          cluster.clusteredMarkers.push(marker);
         }
       }
+    
+      marker.addEventListener('click', openLink);
+      marker.addEventListener('mouseover', enterMarker);
+      marker.addEventListener('mouseout', leaveMarker);
     }
   });
 });
