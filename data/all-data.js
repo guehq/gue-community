@@ -450,6 +450,18 @@ markers = [
           "lat": 29.825308613961422,
           "lng": -82.59779848895784
         }
+      },
+      {
+        "type": "localCommunity",
+        "title": "Bay Area Underwater Explorers (BAUE) [Local Community]",
+        "logo": "",
+        "poc": "John Heiman",
+        "email": "info@baue.org ",
+        "link": "http://baue.org/",
+        "location": {
+          "lat": 37.75528713326324,
+          "lng": -122.33464858226927
+        }
       }
     ]
   },
