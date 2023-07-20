@@ -1,6 +1,6 @@
 markers = [
   {
-    "country": "United United Arab Emirates",
+    "country": "United Arab Emirates",
     "countryCode": "AE",
     "location": {
       "lat": 24.45118,
@@ -9,6 +9,9 @@ markers = [
     "clusteredMarkers": [
       {
         "type": "premiumDiveCenter",
+        "country": "United Arab Emirates",
+        "countryCode": "AE",
+        "city": "",
         "title": "Deep Dive Dubai [Premium Dive Center]",
         "logo": "",
         "poc": "Dimitris Fifts",
@@ -17,6 +20,21 @@ markers = [
         "location": {
           "lat": 25.127855026793533,
           "lng": 55.29512669746564
+        }
+      },
+      {
+        "type": "diveCenter",
+        "country": "United Arab Emirates",
+        "countryCode": "AE",
+        "city": "",
+        "title": "Freestyle Divers [Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "",
+        "link": "https://freestyledivers.me",
+        "location": {
+          "lat": 25.60076579262935,
+          "lng": 56.340163011103655
         }
       }
     ]
@@ -31,6 +49,9 @@ markers = [
     "clusteredMarkers": [
       {
         "type": "localCommunity",
+        "country": "Austria",
+        "countryCode": "AT",
+        "city": "",
         "title": "Wien [Local Community]",
         "logo": "",
         "poc": "",
@@ -53,6 +74,9 @@ markers = [
     "clusteredMarkers": [
       {
         "type": "premiumDiveCenter",
+        "country": "Australia",
+        "countryCode": "AU",
+        "city": "",
         "title": "Dive Centre Bondi [Premium Dive Center]",
         "logo": "",
         "poc": "",
@@ -66,15 +90,68 @@ markers = [
     ]
   },
   {
+    "country": "Belgium",
+    "countryCode": "BE",
+    "location": { 
+      "lat": 50.8689,
+      "lng": 4.7351
+    },
+    "clusteredMarkers": [
+      {
+        "type": "diveCenter",
+        "country": "Belgium",
+        "countryCode": "BE",
+        "city": "",
+        "title": "Diveolution [Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "",
+        "link": "http://diveolution.com",
+        "location": {
+          "lat": 50.868990774609635,
+          "lng": 4.735199499609247
+        }
+      }
+    ]
+  },
+  {
+    "country": "Canada",
+    "countryCode": "CA",
+    "location": { 
+      "lat": 48.6409,
+      "lng": -71.4561
+    },
+    "clusteredMarkers": [
+      {
+        "type": "premiumDiveCenter",
+        "country": "Canada",
+        "countryCode": "CA",
+        "city": "",
+        "title": "Plongée Nautilus [Premium Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "info@plongeenautilus.com",
+        "link": "http://www.plongeenautilus.com/",
+        "location": {
+          "lat": 48.64098748695309,
+          "lng": -71.45614147840811
+        }
+      }
+    ]
+  },
+  {
     "country": "Switzerland",
     "countryCode": "CH",
     "location": {
-      "lat": 46.77762789947781,
-      "lng": 7.850266576996056
+      "lat": 46.777,
+      "lng": 7.8502
     },
     "clusteredMarkers": [
       {
         "type": "localCommunity",
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "city": "",
         "title": "Zürich [Local Community]",
         "logo": "",
         "poc": "",
@@ -87,6 +164,9 @@ markers = [
       },
       {
         "type": "localCommunity",
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "city": "",
         "title": "Locarno [Local Community]",
         "logo": "",
         "poc": "",
@@ -95,6 +175,31 @@ markers = [
         "location": {
           "lat": 46.16699,
           "lng": 8.79426
+        }
+      }
+    ]
+  },
+  {
+    "country": "China",
+    "countryCode": "CN",
+    "location": { 
+      "lat": 29.5980,
+      "lng": 119.0061
+    },
+    "clusteredMarkers": [
+      {
+        "type": "premiumDiveCenter",
+        "country": "China",
+        "countryCode": "CN",
+        "city": "",
+        "title": "Qiandaohu Diving Center [Premium Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "",
+        "link": "",
+        "location": {
+          "lat": 29.59806716556093,
+          "lng": 119.00611419026711
         }
       }
     ]
@@ -109,6 +214,9 @@ markers = [
     "clusteredMarkers": [
       {
         "type": "premiumDiveCenter",
+        "country": "Germany",
+        "countryCode": "DE",
+        "city": "",
         "title": "Deepstop [Premium Dive Center]",
         "logo": "",
         "poc": "",
@@ -120,7 +228,55 @@ markers = [
         }
       },
       {
+        "type": "diveCenter",
+        "country": "Germany",
+        "countryCode": "DE",
+        "city": "",
+        "title": "Faszination-Tauchsport [Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "",
+        "link": "https://www.faszination-tauchsport.de",
+        "location": {
+          "lat": 47.96896489560734,
+          "lng": 11.661459869358467
+        }
+      },
+      {
+        "type": "diveCenter",
+        "country": "Germany",
+        "countryCode": "DE",
+        "city": "",
+        "title": "Tauchen und Freizeit [Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "info@tauchenundfreizeit.de",
+        "link": "https://www.tauchenundfreizeit.de",
+        "location": {
+          "lat": 51.55,
+          "lng": 7.25
+        }
+      },
+      {
+        "type": "diveCenter",
+        "country": "Germany",
+        "countryCode": "DE",
+        "city": "",
+        "title": "Tauchservice Münster [Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "mail@tauchservice.info",
+        "link": "https://www.tauchservice.info",
+        "location": {
+          "lat": 51.924700375716284,
+          "lng": 7.760466198326716
+        }
+      },
+      {
         "type": "localCommunity",
+        "country": "Germany",
+        "countryCode": "DE",
+        "city": "",
         "title": "Murner See [Local Community]",
         "logo": "",
         "poc": "",
@@ -133,6 +289,9 @@ markers = [
       },
       {
         "type": "localCommunity",
+        "country": "Germany",
+        "countryCode": "DE",
+        "city": "",
         "title": "Hamburg [Local Community]",
         "logo": "",
         "poc": "",
@@ -145,6 +304,9 @@ markers = [
       },
       {
         "type": "localCommunity",
+        "country": "Germany",
+        "countryCode": "DE",
+        "city": "",
         "title": "Hunsfels Tauchen [Local Community]",
         "logo": "",
         "poc": "",
@@ -157,6 +319,9 @@ markers = [
       },
       {
         "type": "localCommunity",
+        "country": "Germany",
+        "countryCode": "DE",
+        "city": "",
         "title": "Berlin [Local Community]",
         "logo": "",
         "poc": "",
@@ -169,6 +334,9 @@ markers = [
       },
       {
         "type": "localCommunity",
+        "country": "Germany",
+        "countryCode": "DE",
+        "city": "",
         "title": "Wuppertal [Local Community]",
         "logo": "",
         "poc": "",
@@ -181,6 +349,9 @@ markers = [
       },
       {
         "type": "localCommunity",
+        "country": "Germany",
+        "countryCode": "DE",
+        "city": "",
         "title": "Dresden [Local Community]",
         "logo": "",
         "poc": "",
@@ -193,6 +364,9 @@ markers = [
       },
       {
         "type": "localCommunity",
+        "country": "Germany",
+        "countryCode": "DE",
+        "city": "",
         "title": "Aachen [Local Community]",
         "logo": "",
         "poc": "",
@@ -205,6 +379,9 @@ markers = [
       },
       {
         "type": "localCommunity",
+        "country": "Germany",
+        "countryCode": "DE",
+        "city": "",
         "title": "Köln [Local Community]",
         "logo": "",
         "poc": "",
@@ -217,6 +394,9 @@ markers = [
       },
       {
         "type": "localCommunity",
+        "country": "Germany",
+        "countryCode": "DE",
+        "city": "",
         "title": "Bodensee [Local Community]",
         "logo": "",
         "poc": "",
@@ -230,6 +410,46 @@ markers = [
     ]
   },
   {
+    "country": "Egypt",
+    "countryCode": "EG",
+    "location": { 
+      "lat": 27.2252,
+      "lng": 33.8402
+    },
+    "clusteredMarkers": [
+      {
+        "type": "diveCenter",
+        "country": "Egypt",
+        "countryCode": "EG",
+        "city": "",
+        "title": "Red Sea Explorers [Dive Center]",
+        "logo": "",
+        "poc": "Faisal Khalaf",
+        "email": "info@redseaexplorers.com",
+        "link": "https://www.redseaexplorers.com",
+        "location": {
+          "lat": 27.22528619199866,
+          "lng": 33.84029039402871
+        }
+      },
+      {
+        "type": "diveCenter",
+        "country": "Egypt",
+        "countryCode": "EG",
+        "city": "",
+        "title": "Scuba Seekers [Dive Center]",
+        "logo": "",
+        "poc": "Sameh Sokar",
+        "email": "info@scubaseekers.com",
+        "link": "https://scubaseekers.com",
+        "location": {
+          "lat": 28.495986663502702,
+          "lng": 34.51627205533885
+        }
+      }
+    ]
+  },
+  {
     "country": "Spain",
     "countryCode": "ES",
     "location": {
@@ -238,7 +458,40 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "type": "diveCenter",
+        "country": "Spain",
+        "countryCode": "ES",
+        "city": "",
+        "title": "Islas Hormigas [Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "islashormigas@islashormigas.com",
+        "link": "https://islashormigas.com",
+        "location": {
+          "lat": 37.6319982326426,
+          "lng": -0.7002479038682013
+        }
+      },
+      {
+        "type": "diveCenter",
+        "country": "Spain",
+        "countryCode": "ES",
+        "city": "",
+        "title": "KrakenDive [Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "krakendive@krakendive.com",
+        "link": "https://krakendive.com",
+        "location": {
+          "lat": 41.7226790340908,
+          "lng": 2.938720069165397
+        }
+      },
+      {
         "type": "localCommunity",
+        "country": "Spain",
+        "countryCode": "ES",
+        "city": "",
         "title": "Valencia [Local Community]",
         "logo": "",
         "poc": "",
@@ -255,12 +508,30 @@ markers = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "location": {
-      "lat": 54.98219189283883,
-      "lng": -2.7080122916294305
+      "lat": 53.3022,
+      "lng": -1.8207
     },
     "clusteredMarkers": [
       {
+        "type": "premiumDiveCenter",
+        "country": "United Kingdom",
+        "countryCode": "GB",
+        "city": "",
+        "title": "Tec Diving [Premium Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "",
+        "link": "",
+        "location": {
+          "lat": 51.682773821954854,
+          "lng": -0.08514484808772843
+        }
+      },
+      {
         "type": "localCommunity",
+        "country": "United Kingdom",
+        "countryCode": "GB",
+        "city": "",
         "title": "London [Local Community]",
         "logo": "",
         "poc": "",
@@ -273,6 +544,9 @@ markers = [
       },
       {
         "type": "localCommunity",
+        "country": "United Kingdom",
+        "countryCode": "GB",
+        "city": "",
         "title": "Glasgow [Local Community]",
         "logo": "",
         "poc": "",
@@ -281,6 +555,31 @@ markers = [
         "location": {
           "lat": 55.86423,
           "lng": -4.2518
+        }
+      }
+    ]
+  },
+  {
+    "country": "Hong Kong",
+    "countryCode": "HK",
+    "location": { 
+      "lat": 22.3092,
+      "lng": 114.2261
+    },
+    "clusteredMarkers": [
+      {
+        "type": "premiumDiveCenter",
+        "country": "Hong Kong",
+        "countryCode": "HK",
+        "city": "",
+        "title": "Third Dimension Diving SEA [Premium Dive Center]",
+        "logo": "",
+        "poc": "Andreas Baumgaertner",
+        "email": "sales@thirddimensiondivingsea.com",
+        "link": "https://thirddimensiondivingsea.com/",
+        "location": {
+          "lat": 22.309219702321766,
+          "lng": 114.22612915068594
         }
       }
     ]
@@ -295,6 +594,9 @@ markers = [
     "clusteredMarkers": [
       {
         "type": "localCommunity",
+        "country": "Hungary",
+        "countryCode": "HU",
+        "city": "",
         "title": "Budapest [Local Community]",
         "logo": "",
         "poc": "",
@@ -308,6 +610,31 @@ markers = [
     ]
   },
   {
+    "country": "Croatia",
+    "countryCode": "HR",
+    "location": { 
+      "lat": 9.9620,
+      "lng": 123.3695
+    },
+    "clusteredMarkers": [
+      {
+        "type": "diveCenter",
+        "country": "Croatia",
+        "countryCode": "HR",
+        "city": "",
+        "title": "Kasai Village Dive Academy [Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "info@kasaivillage.com",
+        "link": "https://www.scubadivingphilippines.com",
+        "location": {
+          "lat": 9.96209239898119,
+          "lng": 123.36954052623656
+        }
+      }
+    ]
+  },
+  {
     "country": "Italy",
     "countryCode": "IT",
     "location": {
@@ -316,7 +643,25 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "type": "premiumDiveCenter",
+        "country": "Italy",
+        "countryCode": "IT",
+        "city": "",
+        "title": "Portofino Divers [Premium Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "info@portofinodivers.com",
+        "link": "https://portofinodivers.com/",
+        "location": {
+          "lat": 44.329415874465134,
+          "lng": 9.213241826738368
+        }
+      },
+      {
         "type": "localCommunity",
+        "country": "Italy",
+        "countryCode": "IT",
+        "city": "",
         "title": "Rom [Local Community]",
         "logo": "",
         "poc": "",
@@ -328,7 +673,25 @@ markers = [
         }
       },
       {
+        "type": "localCommunity",
+        "country": "Italy",
+        "countryCode": "IT",
+        "city": "Rome",
+        "title": "BigBlueXplorers [Local Community]",
+        "logo": "",
+        "poc": "Claudio Provenzani",
+        "email": "maccagni1@iol.it",
+        "link": "www.bigbluexplorers.com",
+        "location": {
+          "lat": 41.90278,
+          "lng": 12.49636
+        }
+      },
+      {
         "type": "premiumDiveCenter",
+        "country": "Italy",
+        "countryCode": "IT",
+        "city": "",
         "title": "Base1 Sardinia [Premium Dive Center]",
         "logo": "",
         "poc": "",
@@ -342,15 +705,153 @@ markers = [
     ]
   },
   {
-    "country": "Netherlands",
-    "countryCode": "NL",
+    "country": "Korea (the Republic of)",
+    "countryCode": "KR",
     "location": { 
-      "lat": 51.568901673548815,
-      "lng": 5.086470269293292
+      "lat": 37.3928,
+      "lng": 126.6457
     },
     "clusteredMarkers": [
       {
         "type": "premiumDiveCenter",
+        "country": "Korea (the Republic of)",
+        "countryCode": "KR",
+        "city": "",
+        "title": "Tech Korea [Premium Dive Center]",
+        "logo": "",
+        "poc": "Kyungsoo Kim",
+        "email": "dive.tech.korea@gmail.com",
+        "link": "https://divetechkorea.com/",
+        "location": {
+          "lat": 37.39286168722462,
+          "lng": 126.64571202654295
+        }
+      }
+    ]
+  },
+  {
+    "country": "Mexico",
+    "countryCode": "MX",
+    "location": { 
+      "lat": 18.6925,
+      "lng": -95.5840
+    },
+    "clusteredMarkers": [
+      {
+        "type": "premiumDiveCenter",
+        "country": "Mexico",
+        "countryCode": "MX",
+        "city": "",
+        "title": "Zero Gravity [Premium Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "info@zerogravity.com.mx",
+        "link": "https://zerogravity.com.mx/",
+        "location": {
+          "lat": 20.505538421452883,
+          "lng": -87.23039000722034
+        }
+      },
+      {
+        "type": "premiumDiveCenter",
+        "country": "Mexico",
+        "countryCode": "MX",
+        "city": "",
+        "title": "Third Dimension Diving [Premium Dive Center]",
+        "logo": "",
+        "poc": "Kelvin Davidson",
+        "email": "kelvin@thirddimensiondiving.com",
+        "link": "https://www.thirddimensiondiving.com/",
+        "location": {
+          "lat": 20.214650382388147,
+          "lng": -87.4596731602703
+        }
+      },
+      {
+        "type": "diveCenter",
+        "country": "Mexico",
+        "countryCode": "MX",
+        "city": "Mexico City",
+        "title": "Acuatic Tulum Dive Center [Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "booking@acuatictulum.com",
+        "link": "https://www.acuatictulum.com",
+        "location": {
+          "lat": 20.1900,
+          "lng": -87.1000
+        }
+      },
+      {
+        "type": "localCommunity",
+        "country": "Mexico",
+        "countryCode": "MX",
+        "city": "",
+        "title": "Divers Community [Local Community]",
+        "logo": "",
+        "poc": "",
+        "email": "bruno@diverscommunity.mx",
+        "link": " https://www.facebook.com/diverscommunitymexico",
+        "location": {
+          "lat": 19.42109829596502,
+          "lng": -99.1360753332107
+        }
+      }
+    ]
+  },
+  {
+    "country": "Malaysia",
+    "countryCode": "MY",
+    "location": { 
+      "lat": 3.1856,
+      "lng": 101.5992
+    },
+    "clusteredMarkers": [
+      {
+        "type": "premiumDiveCenter",
+        "country": "Malaysia",
+        "countryCode": "MY",
+        "city": "",
+        "title": "Living Oceans Malaysia [Premium Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "info@livingoceans.com.my",
+        "link": "http://www.livingoceans.com.my/",
+        "location": {
+          "lat": 3.1856309677566883,
+          "lng": 101.59923123989562
+        }
+      },
+      {
+        "type": "diveCenter",
+        "country": "Malaysia",
+        "countryCode": "MY",
+        "city": "",
+        "title": "Moby Tek Dive Centre [Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "info@moby-tek.com",
+        "link": "https://www.moby-tek.com",
+        "location": {
+          "lat": 2.8353216706623567,
+          "lng": 104.16047039736642
+        }
+      }
+    ]
+  },
+  {
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "location": { 
+      "lat": 51.5689,
+      "lng": 5.0864
+    },
+    "clusteredMarkers": [
+      {
+        "type": "premiumDiveCenter",
+        "country": "Netherlands",
+        "countryCode": "NL",
+        "city": "",
         "title": "Duikcentrum de Aalscholvers [Premium Dive Center]",
         "logo": "",
         "poc": "",
@@ -359,6 +860,91 @@ markers = [
         "location": {
           "lat": 51.568901673548815,
           "lng": 5.086470269293292
+        }
+      },
+      {
+        "type": "premiumDiveCenter",
+        "country": "Netherlands",
+        "countryCode": "NL",
+        "city": "",
+        "title": "Silent Bubbles [Premium Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "",
+        "link": "",
+        "location": {
+          "lat": 52.47608902406759,
+          "lng": 5.465696612119041
+        }
+      },
+      {
+        "type": "premiumDiveCenter",
+        "country": "Netherlands",
+        "countryCode": "NL",
+        "city": "",
+        "title": "Scuba Academie [Premium Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "info@scuba-academie.nl",
+        "link": "http://www.scuba-academie.nl/",
+        "location": {
+          "lat": 52.225409008498744,
+          "lng": 4.926427111644085
+        }
+      },
+      {
+        "type": "diveCenter",
+        "country": "Netherlands",
+        "countryCode": "NL",
+        "city": "",
+        "title": "Buddy Dive Resort [Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "info@buddydive.com",
+        "link": "https://buddydive.com",
+        "location": {
+          "lat": 12.171044257369875,
+          "lng": -68.28723146034903
+        }
+      }
+    ]
+  },
+  {
+    "country": "Philippines",
+    "countryCode": "PH",
+    "location": { 
+      "lat": 9.9620,
+      "lng": 123.3695
+    },
+    "clusteredMarkers": [
+      {
+        "type": "diveCenter",
+        "country": "Philippines",
+        "countryCode": "PH",
+        "city": "",
+        "title": "Kasai Village Dive Academy [Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "info@kasaivillage.com",
+        "link": "https://www.scubadivingphilippines.com",
+        "location": {
+          "lat": 9.96209239898119,
+          "lng": 123.36954052623656
+        }
+      },
+      {
+        "type": "diveCenter",
+        "country": "Philippines",
+        "countryCode": "PH",
+        "city": "",
+        "title": "Tech Asia [Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "dave@techasia.ph",
+        "link": "https://techasia.ph",
+        "location": {
+          "lat": 17.209060349051192,
+          "lng": 121.39995530113724
         }
       }
     ]
@@ -373,6 +959,9 @@ markers = [
     "clusteredMarkers": [
       {
         "type": "localCommunity",
+        "country": "Portugal",
+        "countryCode": "PT",
+        "city": "",
         "title": "Lissabon [Local Community]",
         "logo": "",
         "poc": "",
@@ -381,6 +970,86 @@ markers = [
         "location": {
           "lat": 38.72225,
           "lng": -9.13933
+        }
+      }
+    ]
+  },
+  {
+    "country": "Singapore",
+    "countryCode": "SG",
+    "location": { 
+      "lat": 1.2990,
+      "lng": 103.8519
+    },
+    "clusteredMarkers": [
+      {
+        "type": "premiumDiveCenter",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "city": "",
+        "title": "Living Oceans [Premium Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "info@livingoceans.com.sg",
+        "link": "http://www.livingoceans.com.sg/",
+        "location": {
+          "lat": 1.2990235598463238,
+          "lng": 103.70
+        }
+      },
+      {
+        "type": "diveCenter",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "city": "",
+        "title": "Emperor Divers [Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "info@emperordivers.com",
+        "link": "https://www.emperordivers.com",
+        "location": {
+          "lat": 1.318538521614634,
+          "lng": 104.05
+        }
+      }
+    ]
+  },
+  {
+    "country": "Thailand",
+    "countryCode": "TH",
+    "location": { 
+      "lat": 13.7471,
+      "lng": 100.5808
+    },
+    "clusteredMarkers": [
+      {
+        "type": "diveCenter",
+        "country": "Thailand",
+        "countryCode": "TH",
+        "city": "",
+        "title": "Ocean Blue Wave [Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "info@oceanbluewave.co.th",
+        "link": "https://oceanbluewave.co.th",
+        "location": {
+          "lat": 13.74718177633435,
+          "lng": 100.58085018209356
+        }
+      },
+      {
+        "type": "diveCenter",
+        "country": "Thailand",
+        "countryCode": "TH",
+        "city": "",
+        "title": "Scuba Adventures [Dive Center]",
+        "logo": "",
+        "poc": "",
+        "email": "",
+        "link": "https://www.pattaya-scuba-adventures.com",
+        "location": {
+          "lat": 12.91759576423526,
+          "lng": 100.8787561210157
         }
       }
     ]
@@ -395,7 +1064,10 @@ markers = [
     "clusteredMarkers": [
       {
         "type": "localCommunity",
-        "title": "GUE Turkey",
+        "country": "Turkiye",
+        "countryCode": "TR",
+        "city": "Istanbul",
+        "title": "GUE Turkey [Local Community]",
         "logo": "",
         "poc": "Nevcan Uludaş",
         "email": "nev@gue.com",
@@ -407,7 +1079,10 @@ markers = [
       },
       {
         "type": "localCommunity",
-        "title": "GUE Turkey",
+        "country": "Turkiye",
+        "countryCode": "TR",
+        "city": "Isparta",
+        "title": "GUE Turkey [Local Community]",
         "logo": "",
         "poc": "Fatih Albayrak",
         "email": "fatih@gueturkey.com",
@@ -423,12 +1098,15 @@ markers = [
     "country": "United States of America",
     "countryCode": "US",
     "location": { 
-      "lat": 47.2830,
-      "lng": -120.7600
+      "lat": 39.4251,
+      "lng": -117.0327
     },
     "clusteredMarkers": [
       {
         "type": "premiumDiveCenter",
+        "country": "United States of America",
+        "countryCode": "US",
+        "city": "",
         "title": "Eight Diving [Premium Dive Center]",
         "logo": "",
         "poc": "",
@@ -441,6 +1119,24 @@ markers = [
       },
       {
         "type": "premiumDiveCenter",
+        "country": "United States of America",
+        "countryCode": "US",
+        "city": "",
+        "title": "Zen Dive Co. [Premium Dive Center]",
+        "logo": "",
+        "poc": "Karim Hamza",
+        "email": "support@zendive.co",
+        "link": "https://www.zendive.co/",
+        "location": {
+          "lat": 34.18064624239513,
+          "lng": -118.15938931585961
+        }
+      },
+      {
+        "type": "premiumDiveCenter",
+        "country": "United States of America",
+        "countryCode": "US",
+        "city": "",
         "title": "Extreme Exposure [Premium Dive Center]",
         "logo": "",
         "poc": "",
@@ -450,49 +1146,50 @@ markers = [
           "lat": 29.825308613961422,
           "lng": -82.59779848895784
         }
-      }
-    ]
-  },
-  {
-    "country": "Singapore",
-    "countryCode": "SG",
-    "location": { 
-      "lat": 1.2990,
-      "lng": 103.8519
-    },
-    "clusteredMarkers": [
+      },
       {
-        "type": "premiumDiveCenter",
-        "title": "Living Oceans [Premium Dive Center]",
+        "type": "diveCenter",
+        "country": "United States of America",
+        "countryCode": "US",
+        "city": "",
+        "title": "Dive Alaska [Dive Center]",
         "logo": "",
         "poc": "",
-        "email": "info@livingoceans.com.sg",
-        "link": "http://www.livingoceans.com.sg/",
+        "email": "info@divealaska.net",
+        "link": "http://divealaska.net",
         "location": {
-          "lat": 1.2990235598463238,
-          "lng": 103.85199115497402
+          "lat": 61.15648859839376,
+          "lng": -149.86460305715872
         }
-      }
-    ]
-  },
-  {
-    "country": "Malaysia",
-    "countryCode": "MY",
-    "location": { 
-      "lat": 3.1856,
-      "lng": 101.5992
-    },
-    "clusteredMarkers": [
+      },
       {
-        "type": "premiumDiveCenter",
-        "title": "Living Oceans Malaysia [Premium Dive Center]",
+        "type": "diveCenter",
+        "country": "United States of America",
+        "countryCode": "US",
+        "city": "",
+        "title": "Hollywood Divers [Dive Center]",
         "logo": "",
         "poc": "",
-        "email": "info@livingoceans.com.my",
-        "link": "http://www.livingoceans.com.my/",
+        "email": "info@hollywooddivers.com",
+        "link": "https://hollywooddivers.com",
         "location": {
-          "lat": 3.1856309677566883,
-          "lng": 101.59923123989562
+          "lat": 34.05,
+          "lng": -118.55
+        }
+      },
+      {
+        "type": "localCommunity",
+        "country": "United States of America",
+        "countryCode": "US",
+        "city": "San Francisco, California",
+        "title": "Bay Area Underwater Explorers (BAUE) [Local Community]",
+        "logo": "",
+        "poc": "John Heiman",
+        "email": "info@baue.org ",
+        "link": "http://baue.org/",
+        "location": {
+          "lat": 37.75528713326324,
+          "lng": -122.33464858226927
         }
       }
     ]
