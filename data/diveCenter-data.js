@@ -475,8 +475,8 @@ markers = [
     "email": "info@emperordivers.com",
     "link": "https://www.emperordivers.com",
     "location": {
-      "lat": 27.332821405756963,
-      "lng": 33.846286206455886
+      "lat": 1.318538521614634,
+      "lng": 103.86649450723961
     }
   }
 ]
