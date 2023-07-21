@@ -260,6 +260,31 @@ markers = [
     ]
   },
   {
+    "country": "Cyprus",
+    "countryCode": "CY",
+    "location": { 
+      "lat": 34.8993885968008,
+      "lng": 33.17778609175844
+    },
+    "clusteredMarkers": [
+      {
+        "type": "localCommunity",
+        "country": "Brazil",
+        "countryCode": "CY",
+        "city": "",
+        "title": "GUE Cyprus [Local Community]",
+        "logo": "https://scontent.ffjr1-3.fna.fbcdn.net/v/t39.30808-6/269910259_104068572157444_8347562081763314012_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ZyE2f8xx7JcAX9g5d5b&_nc_ht=scontent.ffjr1-3.fna&oh=00_AfBzsufQaWPkjgUcpRfLT40iKvpjsQ84kzwE8tcVHBgr7Q&oe=64BFD354",
+        "poc": "Imad Farhat",
+        "email": "imad@gue.com",
+        "link": "https://www.facebook.com/GUE.cyprus",
+        "location": {
+          "lat": 34.8993885968008,
+          "lng": 33.17778609175844
+        }
+      }
+    ]
+  },
+  {
     "country": "Germany",
     "countryCode": "DE",
     "location": {
