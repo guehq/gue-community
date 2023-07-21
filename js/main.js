@@ -192,7 +192,7 @@ function enterMarker() {
   if (logo == null) {
     logo = './img/gue-community-stroke-w200.png'
   }
-  logo = '<img src="' + logo + '" width="77" style="float: left; margin-right: .7em;">'
+  logo = '<img class="tooltip-logo" src="' + logo + '">'
 
   // COMMUNITY TITLE
   let community = this.title
@@ -207,7 +207,7 @@ function enterMarker() {
   } else if (type == 'premiumDiveCenter') {
     typeColor = '#64947b'
   }
-  type = '<span class="tooltip-community-type" style="background-color: ' + typeColor + '">' + type + '</span>'
+  type = '<span class="tooltip-community-type" style="background-color:' + typeColor + '">' + type + '</span>'
 
   // HEADER
   header = '<header>' + this.title + type + '</header>'
@@ -217,7 +217,7 @@ function enterMarker() {
   if (poc == null) {
     poc = ''
   } else {
-    poc = '<span class="label">Contact: </span>' + poc + '\n'
+    poc = '<div class="tooltip-line"><span class="label">Contact:</span>' + poc + '</div>'
   }
 
   // EMAIL
@@ -225,7 +225,7 @@ function enterMarker() {
   if (email == null) {
     email = ''
   } else {
-    email = '<span class="label">E-mail: </span>' + email + '\n'
+    email = '<div class="tooltip-line"><span class="label">E-mail:</span>' + email + '</div>'
   }
 
   // LINK
@@ -233,14 +233,12 @@ function enterMarker() {
   if (link == null) {
     link = ''
   } else {
-    link = '<span class="label">Website: </span>' + link
+    link = '<div class="tooltip-line"><span class="label">Website:</span>' + link + '</div>'
   }
   
   tooltip.location = this.location;
-  tooltip.content =  '<div class="tooltip-content">' + logo + header + poc + email + link + '</div>';
+  tooltip.content =  '<div class="tooltip-card">' + logo + '<div>' + header + poc + email + link + '</div>' + '</div>';
   tooltip.element.style.marginTop = '-' + String(this.scale * 0.5 + 0.75) + 'em';
-  // tooltip.element.style.minHeight = '60px';
-  // tooltip.element.style.minWidth = '450px';
   tooltip.visible = true;
 }
 
