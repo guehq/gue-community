@@ -1053,6 +1053,33 @@ markers = [
     ]
   },
   {
+    "country": "Lebanon",
+    "countryCode": "LB",
+    "location": { 
+      "lat": 33.92234349722164,
+      "lng": 35.48552110339889
+    },
+    "clusteredMarkers": [
+      {
+        "isActive": true,
+        "type": "localCommunity",
+        "country": "Lebanon",
+        "countryCode": "LB",
+        "city": "",
+        "title": "GUE Lebanon",
+        "logo": "https://scontent.fdxb1-1.fna.fbcdn.net/v/t39.30808-6/307977782_164326249593586_3825542841040053054_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ZrwQpEsPhR0AX-lpKrV&_nc_ht=scontent.fdxb1-1.fna&oh=00_AfC6QZFZEonNf4Xc2FWr771WAVHbPXz_sLzNxFUQmAnftA&oe=64BF4F88",
+        "poc": "Gerard Ghammachi",
+        "email": null,
+        "facebook": null,
+        "link": "https://www.facebook.com/groups/687836347960133/",
+        "location": {
+          "lat": 33.92234349722164,
+          "lng": 35.48552110339889
+        }
+      }
+    ]
+  },
+  {
     "country": "Mexico",
     "countryCode": "MX",
     "location": { 
@@ -1178,7 +1205,7 @@ markers = [
     "country": "Netherlands",
     "countryCode": "NL",
     "location": { 
-      "lat": 51.5689,
+      "lat": 51.75,
       "lng": 5.0864
     },
     "clusteredMarkers": [
@@ -1233,7 +1260,7 @@ markers = [
         }
       },
       {
-        "isActive": true,
+        "isActive": true, // TODO: ???
         "type": "diveCenter",
         "country": "Netherlands",
         "countryCode": "NL",
@@ -1247,6 +1274,40 @@ markers = [
         "location": {
           "lat": 12.171044257369875,
           "lng": -68.28723146034903
+        }
+      },
+      {
+        "isActive": true,
+        "type": "localCommunity",
+        "country": "Netherlands",
+        "countryCode": "NL",
+        "city": "",
+        "title": "GUE Nederland",
+        "logo": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.2vNlD-vc0l-1VkSh-1tOzQHaHa%26pid%3DApi&f=1&ipt=de1879e8c8ff4252bdb0c462ff2feae6aa9a0ee2f93b738dd6d4a99f709436fd&ipo=images",
+        "poc": "JP Bresser",
+        "email": "jp@gue.com",
+        "facebook": "https://www.facebook.com/groups/Guenederland",
+        "link": "http://www.gue-nederland.nl/",
+        "location": {
+          "lat": 52.0,
+          "lng": 5.5
+        }
+      },
+      {
+        "isActive": true,
+        "type": "localCommunity",
+        "country": "Netherlands",
+        "countryCode": "NL",
+        "city": "Tilburg",
+        "title": "GUE Noord-Brabant",
+        "logo": null,
+        "poc": "Toine Brekelmans",
+        "email": "toine@brekelmans.net",
+        "facebook": null,
+        "link": "https://www.facebook.com/groups/210399249770621",
+        "location": {
+          "lat": 51.611040799169025,
+          "lng": 5.6
         }
       }
     ]
