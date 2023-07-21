@@ -61,6 +61,21 @@ markers = [
           "lat": 48.20817,
           "lng": 16.37381
         }
+      },
+      {
+        "type": "localCommunity",
+        "country": "Austria",
+        "countryCode": "AT",
+        "city": "",
+        "title": "GUE Austria [Local Community]",
+        "logo": "",
+        "poc": "Michael Westreicher",
+        "email": "wm-dive@a1.net",
+        "link": "https://www.gue-austria.at",
+        "location": {
+          "lat": 47.5031823592519,
+          "lng": 14.288190815457753
+        }
       }
     ]
   },
@@ -135,6 +150,21 @@ markers = [
         "location": {
           "lat": 48.64098748695309,
           "lng": -71.45614147840811
+        }
+      },
+      {
+        "type": "localCommunity",
+        "country": "Canada",
+        "countryCode": "CA",
+        "city": "Vancouver B.C.",
+        "title": "GUE BC [Local Community]",
+        "logo": "https://scontent.ffjr1-2.fna.fbcdn.net/v/t1.18169-9/264538_10152240569086388_741138724_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=grsH7ni2bMEAX_wpqlw&_nc_ht=scontent.ffjr1-2.fna&oh=00_AfDBky24CGe-5dBB0UBj4kRMFfzqkKDEEOfYw2-tYYIClA&oe=64E19982",
+        "poc": "Nick Bowman",
+        "email": "bowman@gue.com",
+        "link": "https://www.facebook.com/groups/gue.bc/",
+        "location": {
+          "lat": 49.25238607704704, 
+          "lng": -123.11367633019077
         }
       }
     ]
@@ -321,12 +351,12 @@ markers = [
         "type": "localCommunity",
         "country": "Germany",
         "countryCode": "DE",
-        "city": "",
-        "title": "Berlin [Local Community]",
+        "city": "Berlin",
+        "title": "GUE Berlin [Local Community]",
         "logo": "",
-        "poc": "",
+        "poc": "Clemens Chaskel",
         "email": "",
-        "link": "",
+        "link": "https://www.facebook.com/groups/GUEDiversBerlin",
         "location": {
           "lat": 52.52,
           "lng": 13.40495
@@ -1068,7 +1098,7 @@ markers = [
         "countryCode": "TR",
         "city": "Istanbul",
         "title": "GUE Turkey [Local Community]",
-        "logo": "",
+        "logo": "https://gueturkey.com/images/gueturkey.jpg",
         "poc": "Nevcan Uludaş",
         "email": "nev@gue.com",
         "link": "http://gueturkey.com/",
@@ -1083,7 +1113,7 @@ markers = [
         "countryCode": "TR",
         "city": "Isparta",
         "title": "GUE Turkey [Local Community]",
-        "logo": "",
+        "logo": "https://gueturkey.com/images/gueturkey.jpg",
         "poc": "Fatih Albayrak",
         "email": "fatih@gueturkey.com",
         "link": "http://gueturkey.com/",
@@ -1098,8 +1128,8 @@ markers = [
     "country": "United States of America",
     "countryCode": "US",
     "location": { 
-      "lat": 39.4251,
-      "lng": -117.0327
+      "lat": 39.0000,
+      "lng": -116.0000
     },
     "clusteredMarkers": [
       {
@@ -1185,11 +1215,41 @@ markers = [
         "title": "Bay Area Underwater Explorers (BAUE) [Local Community]",
         "logo": "",
         "poc": "John Heiman",
-        "email": "info@baue.org ",
+        "email": "info@baue.org",
         "link": "http://baue.org/",
         "location": {
           "lat": 37.75528713326324,
           "lng": -122.33464858226927
+        }
+      },
+      {
+        "type": "localCommunity",
+        "country": "United States of America",
+        "countryCode": "US",
+        "city": "New York",
+        "title": "East Coast Underwater Explorers (ECUE) [Local Community]",
+        "logo": "",
+        "poc": "Erik Lu",
+        "email": "freakse@gmail.com",
+        "link": "https://www.facebook.com/groups/283672583537735",
+        "location": {
+          "lat": 40.714435434231355,
+          "lng": -73.86036877361643
+        }
+      },
+      {
+        "type": "localCommunity",
+        "country": "United States of America",
+        "countryCode": "US",
+        "city": "Anchorage, Alaska",
+        "title": "GUE Alaska [Local Community]",
+        "logo": "",
+        "poc": "Cameron Miller",
+        "email": "cmiller@gue.com",
+        "link": "https://www.facebook.com/groups/218861355815880",
+        "location": {
+          "lat": 61.16957071369404,
+          "lng": -149.00
         }
       }
     ]
