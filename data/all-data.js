@@ -130,6 +130,31 @@ markers = [
     ]
   },
   {
+    "country": "Brazil",
+    "countryCode": "BR",
+    "location": { 
+      "lat": -10.320668416390525,
+      "lng": -53.08208090084062
+    },
+    "clusteredMarkers": [
+      {
+        "type": "localCommunity",
+        "country": "Brazil",
+        "countryCode": "BR",
+        "city": "",
+        "title": "GUE Brasil [Local Community]",
+        "logo": "",
+        "poc": "Sergio Rhein Schirato",
+        "email": "sergio.schirato@gue.com",
+        "link": "https://www.facebook.com/groups/GUE.Brasil/",
+        "location": {
+          "lat": -10.320668416390525,
+          "lng": -53.08208090084062
+        }
+      }
+    ]
+  },
+  {
     "country": "Canada",
     "countryCode": "CA",
     "location": { 
