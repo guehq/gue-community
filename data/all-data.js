@@ -188,8 +188,8 @@ markers = [
     "country": "Canada",
     "countryCode": "CA",
     "location": { 
-      "lat": 48.6409,
-      "lng": -71.4561
+      "lat": 49.6409,
+      "lng": -79.4561
     },
     "clusteredMarkers": [
       {
@@ -224,6 +224,23 @@ markers = [
         "location": {
           "lat": 49.25238607704704, 
           "lng": -123.11367633019077
+        }
+      },
+      {
+        "isActive": true,
+        "type": "localCommunity",
+        "country": "Canada",
+        "countryCode": "CA",
+        "city": "Ottawa",
+        "title": "GUE Ontario",
+        "logo": null,
+        "poc": "Steve Blanchard",
+        "email": null,
+        "facebook": null,
+        "link": "https://www.facebook.com/groups/98411811487",
+        "location": {
+          "lat": 45.35014305073403,
+          "lng": -75.81541067104459
         }
       }
     ]
@@ -721,6 +738,22 @@ markers = [
         "location": {
           "lat": 55.86423,
           "lng": -4.2518
+        }
+      },
+      {
+        "isActive": true,
+        "type": "localCommunity",
+        "country": "United Kingdom",
+        "countryCode": "GB",
+        "city": "",
+        "title": "GUE-UK",
+        "logo": null,
+        "poc": "Rich Walker",
+        "email": "rich@wreckandcave.co.uk",
+        "link": "https://www.facebook.com/groups/gueuk",
+        "location": {
+          "lat": 54.116045087008025,
+          "lng": -1.6446860920443174
         }
       }
     ]
@@ -1656,6 +1689,23 @@ markers = [
         "location": {
           "lat": 61.16957071369404,
           "lng": -149.00
+        }
+      },
+      {
+        "isActive": true,
+        "type": "localCommunity",
+        "country": "United States of America",
+        "countryCode": "US",
+        "city": "Los Angeles, CA",
+        "title": "LAUE - Los Angeles Underwater Explorers",
+        "logo": null,
+        "poc": "Karim Hamza",
+        "email": "karim@gue.com",
+        "facebook": null,
+        "link": "https://m.facebook.com/groups/GUELA/",
+        "location": {
+          "lat": 33.8,
+          "lng": -118.2
         }
       }
     ]
