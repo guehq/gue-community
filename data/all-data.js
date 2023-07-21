@@ -13,7 +13,7 @@ markers = [
         "countryCode": "AE",
         "city": "",
         "title": "Deep Dive Dubai",
-        "logo": null,
+        "logo": "https://1xp905.p3cdn1.secureserver.net/wp-content/uploads/2021/07/deep-dive-dubai-retina-logo-1.png",
         "poc": "Dimitris Fifts",
         "email": "info@deepdivedubai.com",
         "link": "https://www.deepdivedubai.com",
@@ -28,13 +28,28 @@ markers = [
         "countryCode": "AE",
         "city": "",
         "title": "Freestyle Divers",
-        "logo": null,
-        "poc": null,
+        "logo": "https://scontent.ffjr1-1.fna.fbcdn.net/v/t39.30808-6/304864378_499762455489220_4781953270339325303_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=yiTZUMRZQlAAX_d9J27&_nc_ht=scontent.ffjr1-1.fna&oh=00_AfD1zwGx7GBujJ38x4qDFwPuHsbClsKH70eFEJwSMYOJJA&oe=64BF150B",
+        "poc": "Darryl Owen",
         "email": null,
         "link": "https://freestyledivers.me",
         "location": {
           "lat": 25.60076579262935,
           "lng": 56.340163011103655
+        }
+      },
+      {
+        "type": "localCommunity",
+        "country": "United Arab Emirates",
+        "countryCode": "AE",
+        "city": "",
+        "title": "GUE UAE",
+        "logo": "https://pps.whatsapp.net/v/t61.24694-24/342206519_1275850699684309_7141278564904807799_n.jpg?ccb=11-4&oh=01_AdQfIEhqOe4b-3RazceINelP_AKFMtlt1Otj_cCxMG-2Lw&oe=64C3A508",
+        "poc": "Mark Devoldere",
+        "email": "mark.d@gue.com",
+        "link": "https://www.facebook.com/groups/175991376136930",
+        "location": {
+          "lat": 25.25,
+          "lng": 55.65
         }
       }
     ]
@@ -503,7 +518,7 @@ markers = [
         "countryCode": "EG",
         "city": "",
         "title": "Red Sea Explorers",
-        "logo": null,
+        "logo": "https://www.redseaexplorers.com/images/logo.png",
         "poc": "Faisal Khalaf",
         "email": "info@redseaexplorers.com",
         "link": "https://www.redseaexplorers.com",
@@ -518,12 +533,27 @@ markers = [
         "countryCode": "EG",
         "city": "",
         "title": "Scuba Seekers",
-        "logo": null,
+        "logo": "https://scubaseekers.com/wp-content/uploads/2020/07/logo-medium.png",
         "poc": "Sameh Sokar",
         "email": "info@scubaseekers.com",
         "link": "https://scubaseekers.com",
         "location": {
           "lat": 28.495986663502702,
+          "lng": 34.51627205533885
+        }
+      },
+      {
+        "type": "localCommunity",
+        "country": "Egypt",
+        "countryCode": "EG",
+        "city": "",
+        "title": "GUE Egypt",
+        "logo": null,
+        "poc": "Sameh Sokar",
+        "email": "sameh.sokar@scubaseekers.com",
+        "link": "https://www.facebook.com/groups/149691775812",
+        "location": {
+          "lat": 27.495986663502702,
           "lng": 34.51627205533885
         }
       }
@@ -640,6 +670,31 @@ markers = [
     ]
   },
   {
+    "country": "Greece",
+    "countryCode": "GR",
+    "location": {
+      "lat": 37.98829407193763,
+      "lng": 23.71115186795693
+    },
+    "clusteredMarkers": [
+      {
+        "type": "localCommunity",
+        "country": "Greece",
+        "countryCode": "GR",
+        "city": "",
+        "title": "GUE Greece",
+        "logo": "https://scontent.ffjr1-4.fna.fbcdn.net/v/t39.30808-6/305410826_579431460643848_7715757905159324656_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6Prum2AGw-QAX_yLegR&_nc_ht=scontent.ffjr1-4.fna&oh=00_AfDL3gnf2X-3aUY1pTC1l-3_ET5QWXW0KdQPtbUKG1r65A&oe=64BF2C47",
+        "poc": "Nikos Vardakas",
+        "email": "nikos@gue.com",
+        "link": "https://www.guegreece.com",
+        "location": {
+          "lat": 37.98829407193763,
+          "lng": 23.71115186795693
+        }
+      }
+    ]
+  },
+  {
     "country": "Hong Kong",
     "countryCode": "HK",
     "location": { 
@@ -660,6 +715,21 @@ markers = [
         "location": {
           "lat": 22.309219702321766,
           "lng": 114.22612915068594
+        }
+      },
+      {
+        "type": "localCommunity",
+        "country": "Hong Kong",
+        "countryCode": "HK",
+        "city": "",
+        "title": "GUE Hong Kong",
+        "logo": null,
+        "poc": "Andrew Couch",
+        "email": "andrew@asiatechdiving.com",
+        "link": "https://www.facebook.com/groups/859253367453503/",
+        "location": {
+          "lat": 22.4,
+          "lng": 114.7
         }
       }
     ]
@@ -693,8 +763,8 @@ markers = [
     "country": "Croatia",
     "countryCode": "HR",
     "location": { 
-      "lat": 9.9620,
-      "lng": 123.3695
+      "lat": 44.95419574363501,
+      "lng": 14.03617742592672
     },
     "clusteredMarkers": [
       {
@@ -702,14 +772,14 @@ markers = [
         "country": "Croatia",
         "countryCode": "HR",
         "city": "",
-        "title": "Kasai Village Dive Academy",
+        "title": "Krnicadive",
         "logo": null,
         "poc": null,
-        "email": "info@kasaivillage.com",
-        "link": "https://www.scubadivingphilippines.com",
+        "email": "info@krnica.com",
+        "link": "https://www.krnica.com/",
         "location": {
-          "lat": 9.96209239898119,
-          "lng": 123.36954052623656
+          "lat": 44.95419574363501,
+          "lng": 14.03617742592672
         }
       }
     ]
@@ -722,6 +792,21 @@ markers = [
       "lng": 12.49636
     },
     "clusteredMarkers": [
+      {
+        "type": "premiumDiveCenter",
+        "country": "Italy",
+        "countryCode": "IT",
+        "city": "",
+        "title": "Base1 Sardinia",
+        "logo": "https://www.baseone.it/wp-content/uploads/2021/05/logo_base1.png",
+        "poc": null,
+        "email": "info@baseone.it",
+        "link": "https://www.baseone.it",
+        "location": {
+          "lat": 40.2841987687179,
+          "lng": 9.636964711283438
+        }
+      },
       {
         "type": "premiumDiveCenter",
         "country": "Italy",
@@ -765,21 +850,6 @@ markers = [
         "location": {
           "lat": 41.90278,
           "lng": 12.49636
-        }
-      },
-      {
-        "type": "premiumDiveCenter",
-        "country": "Italy",
-        "countryCode": "IT",
-        "city": "",
-        "title": "Base1 Sardinia",
-        "logo": null,
-        "poc": null,
-        "email": "info@baseone.it",
-        "link": "https://www.baseone.it",
-        "location": {
-          "lat": 40.2841987687179,
-          "lng": 9.636964711283438
         }
       }
     ]
@@ -993,8 +1063,8 @@ markers = [
     "country": "Philippines",
     "countryCode": "PH",
     "location": { 
-      "lat": 9.9620,
-      "lng": 123.3695
+      "lat": 12.6, 
+      "lng": 123.0
     },
     "clusteredMarkers": [
       {

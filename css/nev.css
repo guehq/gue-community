@@ -70,9 +70,10 @@ body {
 
 .tooltip-logo {
   width: 77px;
+  height: auto;
   float: left;
   margin-right: .7em;
-  border-radius: 100%;
+  border-radius: 4px;
 }
 
 .tooltip header {
@@ -103,5 +104,5 @@ body {
 
 .tooltip .label {
   color: #777;
-  margin-right: 5px;
+  width: 66px;
 }
