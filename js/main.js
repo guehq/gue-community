@@ -182,13 +182,44 @@ function zoomOut() {
 
 function enterMarker() {
   if ( goto_transition ) return; // no tooltips during zoom
-  let img = this.logo
-  if (img == null) {
-    img = './img/gue-community-stroke-w200.png'
+
+  // LOGO
+  let logo = this.logo
+  if (logo == null) {
+    logo = './img/gue-community-stroke-w200.png'
+  }
+  logo = '<img src="' + logo + '" width="77" style="float: left; margin-right: .7em;">'
+
+  // COMMUNITY
+  let community = this.title
+  community = '<span class="label">Community: </span>' + community
+
+  // CONTACT
+  let poc = this.poc
+  if (poc == null) {
+    poc = ''
+  } else {
+    poc = '\n' + '<span class="label">Contact: </span>' + poc
+  }
+
+  // EMAIL
+  let email = this.email
+  if (email == null) {
+    email = ''
+  } else {
+    email = '\n' + '<span class="label">E-mail: </span>' + email
+  }
+
+  // LINK
+  let link = this.link
+  if (link == null) {
+    link = ''
+  } else {
+    link = '\n' + '<span class="label">Website: </span>' + link
   }
   
   tooltip.location = this.location;
-  tooltip.content = '<img src="' + img + '" width="77" style="float: left; margin-right: .7em;">' + 'Community: ' + this.title + '\n' + 'Contact: ' + this.poc + '\n' + 'Email: ' + this.email + '\n' + 'Website: ' + this.link;
+  tooltip.content = logo + community + poc + email + link;
   tooltip.element.style.marginTop = '-' + String(this.scale*0.5 + 0.75) + 'em';
   tooltip.visible = true;
 }

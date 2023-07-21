@@ -29,8 +29,8 @@ markers = [
         "city": "",
         "title": "Freestyle Divers [Dive Center]",
         "logo": null,
-        "poc": "",
-        "email": "",
+        "poc": null,
+        "email": null,
         "link": "https://freestyledivers.me",
         "location": {
           "lat": 25.60076579262935,
@@ -54,9 +54,9 @@ markers = [
         "city": "",
         "title": "Wien [Local Community]",
         "logo": null,
-        "poc": "",
-        "email": "",
-        "link": "",
+        "poc": null,
+        "email": null,
+        "link": null,
         "location": {
           "lat": 48.20817,
           "lng": 16.37381
@@ -94,7 +94,7 @@ markers = [
         "city": "",
         "title": "Dive Centre Bondi [Premium Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "info@divebondi.com.au",
         "link": "https://www.divebondi.com.au",
         "location": {
@@ -119,8 +119,8 @@ markers = [
         "city": "",
         "title": "Diveolution [Dive Center]",
         "logo": null,
-        "poc": "",
-        "email": "",
+        "poc": null,
+        "email": null,
         "link": "http://diveolution.com",
         "location": {
           "lat": 50.868990774609635,
@@ -169,7 +169,7 @@ markers = [
         "city": "",
         "title": "Plongée Nautilus [Premium Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "info@plongeenautilus.com",
         "link": "http://www.plongeenautilus.com/",
         "location": {
@@ -209,9 +209,9 @@ markers = [
         "city": "",
         "title": "Zürich [Local Community]",
         "logo": null,
-        "poc": "",
-        "email": "",
-        "link": "",
+        "poc": null,
+        "email": null,
+        "link": null,
         "location": {
           "lat": 47.37688,
           "lng": 8.54169
@@ -224,9 +224,9 @@ markers = [
         "city": "",
         "title": "Locarno [Local Community]",
         "logo": null,
-        "poc": "",
-        "email": "",
-        "link": "",
+        "poc": null,
+        "email": null,
+        "link": null,
         "location": {
           "lat": 46.16699,
           "lng": 8.79426
@@ -249,9 +249,9 @@ markers = [
         "city": "",
         "title": "Qiandaohu Diving Center [Premium Dive Center]",
         "logo": null,
-        "poc": "",
-        "email": "",
-        "link": "",
+        "poc": null,
+        "email": null,
+        "link": null,
         "location": {
           "lat": 29.59806716556093,
           "lng": 119.00611419026711
@@ -299,7 +299,7 @@ markers = [
         "city": "",
         "title": "Deepstop [Premium Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "shop@deepstop.de",
         "link": "https://www.deepstop.de/en/",
         "location": {
@@ -314,8 +314,8 @@ markers = [
         "city": "",
         "title": "Faszination-Tauchsport [Dive Center]",
         "logo": null,
-        "poc": "",
-        "email": "",
+        "poc": null,
+        "email": null,
         "link": "https://www.faszination-tauchsport.de",
         "location": {
           "lat": 47.96896489560734,
@@ -329,7 +329,7 @@ markers = [
         "city": "",
         "title": "Tauchen und Freizeit [Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "info@tauchenundfreizeit.de",
         "link": "https://www.tauchenundfreizeit.de",
         "location": {
@@ -344,7 +344,7 @@ markers = [
         "city": "",
         "title": "Tauchservice Münster [Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "mail@tauchservice.info",
         "link": "https://www.tauchservice.info",
         "location": {
@@ -359,9 +359,9 @@ markers = [
         "city": "",
         "title": "Murner See [Local Community]",
         "logo": null,
-        "poc": "",
-        "email": "",
-        "link": "",
+        "poc": null,
+        "email": null,
+        "link": null,
         "location": {
           "lat": 49.35089,
           "lng": 12.20331
@@ -374,9 +374,9 @@ markers = [
         "city": "",
         "title": "Hamburg [Local Community]",
         "logo": null,
-        "poc": "",
-        "email": "",
-        "link": "",
+        "poc": null,
+        "email": null,
+        "link": null,
         "location": {
           "lat": 53.55108,
           "lng": 9.99368
@@ -389,9 +389,9 @@ markers = [
         "city": "",
         "title": "Hunsfels Tauchen [Local Community]",
         "logo": null,
-        "poc": "",
-        "email": "",
-        "link": "",
+        "poc": null,
+        "email": null,
+        "link": null,
         "location": {
           "lat": 49.94794,
           "lng": 7.76782
@@ -405,7 +405,7 @@ markers = [
         "title": "GUE Berlin [Local Community]",
         "logo": null,
         "poc": "Clemens Chaskel",
-        "email": "",
+        "email": null,
         "link": "https://www.facebook.com/groups/GUEDiversBerlin",
         "location": {
           "lat": 52.52,
@@ -419,9 +419,9 @@ markers = [
         "city": "",
         "title": "Wuppertal [Local Community]",
         "logo": null,
-        "poc": "",
-        "email": "",
-        "link": "",
+        "poc": null,
+        "email": null,
+        "link": null,
         "location": {
           "lat": 51.25621,
           "lng": 7.15076
@@ -434,9 +434,9 @@ markers = [
         "city": "",
         "title": "Dresden [Local Community]",
         "logo": null,
-        "poc": "",
-        "email": "",
-        "link": "",
+        "poc": null,
+        "email": null,
+        "link": null,
         "location": {
           "lat": 51.0504,
           "lng": 13.73726
@@ -449,9 +449,9 @@ markers = [
         "city": "",
         "title": "Aachen [Local Community]",
         "logo": null,
-        "poc": "",
-        "email": "",
-        "link": "",
+        "poc": null,
+        "email": null,
+        "link": null,
         "location": {
           "lat": 50.77534,
           "lng": 6.08388
@@ -464,9 +464,9 @@ markers = [
         "city": "",
         "title": "Köln [Local Community]",
         "logo": null,
-        "poc": "",
-        "email": "",
-        "link": "",
+        "poc": null,
+        "email": null,
+        "link": null,
         "location": {
           "lat": 50.93753,
           "lng": 6.96027
@@ -479,9 +479,9 @@ markers = [
         "city": "",
         "title": "Bodensee [Local Community]",
         "logo": null,
-        "poc": "",
-        "email": "",
-        "link": "",
+        "poc": null,
+        "email": null,
+        "link": null,
         "location": {
           "lat": 47.63633,
           "lng": 9.38924
@@ -544,7 +544,7 @@ markers = [
         "city": "",
         "title": "Islas Hormigas [Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "islashormigas@islashormigas.com",
         "link": "https://islashormigas.com",
         "location": {
@@ -559,7 +559,7 @@ markers = [
         "city": "",
         "title": "KrakenDive [Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "krakendive@krakendive.com",
         "link": "https://krakendive.com",
         "location": {
@@ -574,9 +574,9 @@ markers = [
         "city": "",
         "title": "Valencia [Local Community]",
         "logo": null,
-        "poc": "",
-        "email": "",
-        "link": "",
+        "poc": null,
+        "email": null,
+        "link": null,
         "location": {
           "lat": 39.4699,
           "lng": -0.37628
@@ -599,9 +599,9 @@ markers = [
         "city": "",
         "title": "Tec Diving [Premium Dive Center]",
         "logo": null,
-        "poc": "",
-        "email": "",
-        "link": "",
+        "poc": null,
+        "email": null,
+        "link": null,
         "location": {
           "lat": 51.682773821954854,
           "lng": -0.08514484808772843
@@ -614,9 +614,9 @@ markers = [
         "city": "",
         "title": "London [Local Community]",
         "logo": null,
-        "poc": "",
-        "email": "",
-        "link": "",
+        "poc": null,
+        "email": null,
+        "link": null,
         "location": {
           "lat": 51.50721,
           "lng": -0.12758
@@ -629,9 +629,9 @@ markers = [
         "city": "",
         "title": "Glasgow [Local Community]",
         "logo": null,
-        "poc": "",
-        "email": "",
-        "link": "",
+        "poc": null,
+        "email": null,
+        "link": null,
         "location": {
           "lat": 55.86423,
           "lng": -4.2518
@@ -679,9 +679,9 @@ markers = [
         "city": "",
         "title": "Budapest [Local Community]",
         "logo": null,
-        "poc": "",
-        "email": "",
-        "link": "",
+        "poc": null,
+        "email": null,
+        "link": null,
         "location": {
           "lat": 47.49791,
           "lng": 19.04023
@@ -704,7 +704,7 @@ markers = [
         "city": "",
         "title": "Kasai Village Dive Academy [Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "info@kasaivillage.com",
         "link": "https://www.scubadivingphilippines.com",
         "location": {
@@ -729,7 +729,7 @@ markers = [
         "city": "",
         "title": "Portofino Divers [Premium Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "info@portofinodivers.com",
         "link": "https://portofinodivers.com/",
         "location": {
@@ -744,9 +744,9 @@ markers = [
         "city": "",
         "title": "Rom [Local Community]",
         "logo": null,
-        "poc": "",
-        "email": "",
-        "link": "",
+        "poc": null,
+        "email": null,
+        "link": null,
         "location": {
           "lat": 41.90278,
           "lng": 12.49636
@@ -774,7 +774,7 @@ markers = [
         "city": "",
         "title": "Base1 Sardinia [Premium Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "info@baseone.it",
         "link": "https://www.baseone.it",
         "location": {
@@ -824,7 +824,7 @@ markers = [
         "city": "",
         "title": "Zero Gravity [Premium Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "info@zerogravity.com.mx",
         "link": "https://zerogravity.com.mx/",
         "location": {
@@ -854,7 +854,7 @@ markers = [
         "city": "Mexico City",
         "title": "Acuatic Tulum Dive Center [Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "booking@acuatictulum.com",
         "link": "https://www.acuatictulum.com",
         "location": {
@@ -869,7 +869,7 @@ markers = [
         "city": "",
         "title": "Divers Community [Local Community]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "bruno@diverscommunity.mx",
         "link": " https://www.facebook.com/diverscommunitymexico",
         "location": {
@@ -894,7 +894,7 @@ markers = [
         "city": "",
         "title": "Living Oceans Malaysia [Premium Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "info@livingoceans.com.my",
         "link": "http://www.livingoceans.com.my/",
         "location": {
@@ -909,7 +909,7 @@ markers = [
         "city": "",
         "title": "Moby Tek Dive Centre [Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "info@moby-tek.com",
         "link": "https://www.moby-tek.com",
         "location": {
@@ -934,7 +934,7 @@ markers = [
         "city": "",
         "title": "Duikcentrum de Aalscholvers [Premium Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "info@aalscholvers.nl",
         "link": "http://www.aalscholvers.nl/",
         "location": {
@@ -949,9 +949,9 @@ markers = [
         "city": "",
         "title": "Silent Bubbles [Premium Dive Center]",
         "logo": null,
-        "poc": "",
-        "email": "",
-        "link": "",
+        "poc": null,
+        "email": null,
+        "link": null,
         "location": {
           "lat": 52.47608902406759,
           "lng": 5.465696612119041
@@ -964,7 +964,7 @@ markers = [
         "city": "",
         "title": "Scuba Academie [Premium Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "info@scuba-academie.nl",
         "link": "http://www.scuba-academie.nl/",
         "location": {
@@ -979,7 +979,7 @@ markers = [
         "city": "",
         "title": "Buddy Dive Resort [Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "info@buddydive.com",
         "link": "https://buddydive.com",
         "location": {
@@ -1004,7 +1004,7 @@ markers = [
         "city": "",
         "title": "Kasai Village Dive Academy [Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "info@kasaivillage.com",
         "link": "https://www.scubadivingphilippines.com",
         "location": {
@@ -1019,7 +1019,7 @@ markers = [
         "city": "",
         "title": "Tech Asia [Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "dave@techasia.ph",
         "link": "https://techasia.ph",
         "location": {
@@ -1044,9 +1044,9 @@ markers = [
         "city": "",
         "title": "Lissabon [Local Community]",
         "logo": null,
-        "poc": "",
-        "email": "",
-        "link": "",
+        "poc": null,
+        "email": null,
+        "link": null,
         "location": {
           "lat": 38.72225,
           "lng": -9.13933
@@ -1069,7 +1069,7 @@ markers = [
         "city": "",
         "title": "Living Oceans [Premium Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "info@livingoceans.com.sg",
         "link": "http://www.livingoceans.com.sg/",
         "location": {
@@ -1084,7 +1084,7 @@ markers = [
         "city": "",
         "title": "Emperor Divers [Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "info@emperordivers.com",
         "link": "https://www.emperordivers.com",
         "location": {
@@ -1109,7 +1109,7 @@ markers = [
         "city": "",
         "title": "Ocean Blue Wave [Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "info@oceanbluewave.co.th",
         "link": "https://oceanbluewave.co.th",
         "location": {
@@ -1124,8 +1124,8 @@ markers = [
         "city": "",
         "title": "Scuba Adventures [Dive Center]",
         "logo": null,
-        "poc": "",
-        "email": "",
+        "poc": null,
+        "email": null,
         "link": "https://www.pattaya-scuba-adventures.com",
         "location": {
           "lat": 12.91759576423526,
@@ -1189,7 +1189,7 @@ markers = [
         "city": "",
         "title": "Eight Diving [Premium Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "info@8diving.com",
         "link": "https://www.8diving.com/",
         "location": {
@@ -1219,7 +1219,7 @@ markers = [
         "city": "",
         "title": "Extreme Exposure [Premium Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "info@extreme-exposure.com",
         "link": "http://www.extreme-exposure.com/",
         "location": {
@@ -1234,7 +1234,7 @@ markers = [
         "city": "",
         "title": "Dive Alaska [Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "info@divealaska.net",
         "link": "http://divealaska.net",
         "location": {
@@ -1249,7 +1249,7 @@ markers = [
         "city": "",
         "title": "Hollywood Divers [Dive Center]",
         "logo": null,
-        "poc": "",
+        "poc": null,
         "email": "info@hollywooddivers.com",
         "link": "https://hollywooddivers.com",
         "location": {
