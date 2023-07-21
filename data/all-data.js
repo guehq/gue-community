@@ -8,6 +8,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "premiumDiveCenter",
         "country": "United Arab Emirates",
         "countryCode": "AE",
@@ -16,6 +17,7 @@ markers = [
         "logo": "https://1xp905.p3cdn1.secureserver.net/wp-content/uploads/2021/07/deep-dive-dubai-retina-logo-1.png",
         "poc": "Dimitris Fifts",
         "email": "info@deepdivedubai.com",
+        "facebook": null,
         "link": "https://www.deepdivedubai.com",
         "location": {
           "lat": 25.127855026793533,
@@ -23,6 +25,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "diveCenter",
         "country": "United Arab Emirates",
         "countryCode": "AE",
@@ -31,6 +34,7 @@ markers = [
         "logo": "https://scontent.ffjr1-1.fna.fbcdn.net/v/t39.30808-6/304864378_499762455489220_4781953270339325303_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=yiTZUMRZQlAAX_d9J27&_nc_ht=scontent.ffjr1-1.fna&oh=00_AfD1zwGx7GBujJ38x4qDFwPuHsbClsKH70eFEJwSMYOJJA&oe=64BF150B",
         "poc": "Darryl Owen",
         "email": null,
+        "facebook": null,
         "link": "https://freestyledivers.me",
         "location": {
           "lat": 25.60076579262935,
@@ -38,6 +42,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "United Arab Emirates",
         "countryCode": "AE",
@@ -46,6 +51,7 @@ markers = [
         "logo": "https://pps.whatsapp.net/v/t61.24694-24/342206519_1275850699684309_7141278564904807799_n.jpg?ccb=11-4&oh=01_AdQfIEhqOe4b-3RazceINelP_AKFMtlt1Otj_cCxMG-2Lw&oe=64C3A508",
         "poc": "Mark Devoldere",
         "email": "mark.d@gue.com",
+        "facebook": null,
         "link": "https://www.facebook.com/groups/175991376136930",
         "location": {
           "lat": 25.25,
@@ -63,6 +69,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Austria",
         "countryCode": "AT",
@@ -78,6 +85,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Austria",
         "countryCode": "AT",
@@ -86,6 +94,7 @@ markers = [
         "logo": null,
         "poc": "Michael Westreicher",
         "email": "wm-dive@a1.net",
+        "facebook": null,
         "link": "https://www.gue-austria.at",
         "location": {
           "lat": 47.5031823592519,
@@ -103,6 +112,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "premiumDiveCenter",
         "country": "Australia",
         "countryCode": "AU",
@@ -111,6 +121,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": "info@divebondi.com.au",
+        "facebook": null,
         "link": "https://www.divebondi.com.au",
         "location": {
           "lat": -33.893597517625224,
@@ -128,6 +139,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "diveCenter",
         "country": "Belgium",
         "countryCode": "BE",
@@ -136,6 +148,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": null,
+        "facebook": null,
         "link": "http://diveolution.com",
         "location": {
           "lat": 50.868990774609635,
@@ -153,6 +166,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Brazil",
         "countryCode": "BR",
@@ -161,6 +175,7 @@ markers = [
         "logo": null,
         "poc": "Sergio Rhein Schirato",
         "email": "sergio.schirato@gue.com",
+        "facebook": null,
         "link": "https://www.facebook.com/groups/GUE.Brasil/",
         "location": {
           "lat": -10.320668416390525,
@@ -178,6 +193,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "premiumDiveCenter",
         "country": "Canada",
         "countryCode": "CA",
@@ -186,6 +202,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": "info@plongeenautilus.com",
+        "facebook": null,
         "link": "http://www.plongeenautilus.com/",
         "location": {
           "lat": 48.64098748695309,
@@ -193,6 +210,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Canada",
         "countryCode": "CA",
@@ -201,6 +219,7 @@ markers = [
         "logo": "https://scontent.ffjr1-2.fna.fbcdn.net/v/t1.18169-9/264538_10152240569086388_741138724_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=grsH7ni2bMEAX_wpqlw&_nc_ht=scontent.ffjr1-2.fna&oh=00_AfDBky24CGe-5dBB0UBj4kRMFfzqkKDEEOfYw2-tYYIClA&oe=64E19982",
         "poc": "Nick Bowman",
         "email": "bowman@gue.com",
+        "facebook": null,
         "link": "https://www.facebook.com/groups/gue.bc/",
         "location": {
           "lat": 49.25238607704704, 
@@ -218,6 +237,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Switzerland",
         "countryCode": "CH",
@@ -233,6 +253,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Switzerland",
         "countryCode": "CH",
@@ -258,6 +279,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "premiumDiveCenter",
         "country": "China",
         "countryCode": "CN",
@@ -283,6 +305,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Brazil",
         "countryCode": "CY",
@@ -291,6 +314,7 @@ markers = [
         "logo": "https://scontent.ffjr1-3.fna.fbcdn.net/v/t39.30808-6/269910259_104068572157444_8347562081763314012_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ZyE2f8xx7JcAX9g5d5b&_nc_ht=scontent.ffjr1-3.fna&oh=00_AfBzsufQaWPkjgUcpRfLT40iKvpjsQ84kzwE8tcVHBgr7Q&oe=64BFD354",
         "poc": "Imad Farhat",
         "email": "imad@gue.com",
+        "facebook": null,
         "link": "https://www.facebook.com/GUE.cyprus",
         "location": {
           "lat": 34.8993885968008,
@@ -308,14 +332,16 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "premiumDiveCenter",
         "country": "Germany",
         "countryCode": "DE",
-        "city": "",
+        "city": "Schwetzingen",
         "title": "Deepstop",
-        "logo": null,
+        "logo": "https://www.deepstop.de/img/deepstop-logo-1483454453.jpg",
         "poc": null,
         "email": "shop@deepstop.de",
+        "facebook": null,
         "link": "https://www.deepstop.de/en/",
         "location": {
           "lat": 49.40237470514091,
@@ -323,6 +349,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "diveCenter",
         "country": "Germany",
         "countryCode": "DE",
@@ -331,6 +358,7 @@ markers = [
         "logo": "https://www.faszination-tauchsport.de/bilder/intern/shoplogo/logo.png",
         "poc": null,
         "email": "service@faszination-tauchsport.de",
+        "facebook": null,
         "link": "https://www.faszination-tauchsport.de",
         "location": {
           "lat": 47.96896489560734,
@@ -338,6 +366,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "diveCenter",
         "country": "Germany",
         "countryCode": "DE",
@@ -346,6 +375,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": "info@tauchenundfreizeit.de",
+        "facebook": null,
         "link": "https://www.tauchenundfreizeit.de",
         "location": {
           "lat": 51.55,
@@ -353,6 +383,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "diveCenter",
         "country": "Germany",
         "countryCode": "DE",
@@ -361,6 +392,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": "mail@tauchservice.info",
+        "facebook": null,
         "link": "https://www.tauchservice.info",
         "location": {
           "lat": 51.924700375716284,
@@ -368,6 +400,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Germany",
         "countryCode": "DE",
@@ -383,6 +416,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Germany",
         "countryCode": "DE",
@@ -398,6 +432,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Germany",
         "countryCode": "DE",
@@ -413,6 +448,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Germany",
         "countryCode": "DE",
@@ -421,6 +457,7 @@ markers = [
         "logo": "https://scontent.ffjr1-6.fna.fbcdn.net/v/t39.30808-6/293340744_10159646512460339_2309569324341574119_n.jpg?stp=c73.0.80.80a_cp0_dst-jpg_p110x80&_nc_cat=102&ccb=1-7&_nc_sid=70495d&_nc_ohc=zEsOaTG5zssAX-dYeKY&_nc_ht=scontent.ffjr1-6.fna&oh=00_AfD4mirNy7KRRyrumMJvgPQFYhLoujLDNwL6oxkftEX4Yg&oe=64BF2530",
         "poc": "Clemens Chaskel",
         "email": null,
+        "facebook": null,
         "link": "https://www.facebook.com/groups/GUEDiversBerlin",
         "location": {
           "lat": 52.52,
@@ -428,6 +465,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Germany",
         "countryCode": "DE",
@@ -443,6 +481,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Germany",
         "countryCode": "DE",
@@ -458,6 +497,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Germany",
         "countryCode": "DE",
@@ -473,6 +513,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Germany",
         "countryCode": "DE",
@@ -488,6 +529,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Germany",
         "countryCode": "DE",
@@ -513,6 +555,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "diveCenter",
         "country": "Egypt",
         "countryCode": "EG",
@@ -521,6 +564,7 @@ markers = [
         "logo": "https://www.redseaexplorers.com/images/logo.png",
         "poc": "Faisal Khalaf",
         "email": "info@redseaexplorers.com",
+        "facebook": null,
         "link": "https://www.redseaexplorers.com",
         "location": {
           "lat": 27.22528619199866,
@@ -528,6 +572,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "diveCenter",
         "country": "Egypt",
         "countryCode": "EG",
@@ -536,6 +581,7 @@ markers = [
         "logo": "https://scubaseekers.com/wp-content/uploads/2020/07/logo-medium.png",
         "poc": "Sameh Sokar",
         "email": "info@scubaseekers.com",
+        "facebook": null,
         "link": "https://scubaseekers.com",
         "location": {
           "lat": 28.495986663502702,
@@ -543,6 +589,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Egypt",
         "countryCode": "EG",
@@ -551,6 +598,7 @@ markers = [
         "logo": null,
         "poc": "Sameh Sokar",
         "email": "sameh.sokar@scubaseekers.com",
+        "facebook": null,
         "link": "https://www.facebook.com/groups/149691775812",
         "location": {
           "lat": 27.495986663502702,
@@ -568,6 +616,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "diveCenter",
         "country": "Spain",
         "countryCode": "ES",
@@ -576,6 +625,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": "islashormigas@islashormigas.com",
+        "facebook": null,
         "link": "https://islashormigas.com",
         "location": {
           "lat": 37.6319982326426,
@@ -583,6 +633,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "diveCenter",
         "country": "Spain",
         "countryCode": "ES",
@@ -591,6 +642,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": "krakendive@krakendive.com",
+        "facebook": null,
         "link": "https://krakendive.com",
         "location": {
           "lat": 41.7226790340908,
@@ -598,6 +650,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Spain",
         "countryCode": "ES",
@@ -623,6 +676,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "premiumDiveCenter",
         "country": "United Kingdom",
         "countryCode": "GB",
@@ -638,6 +692,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "United Kingdom",
         "countryCode": "GB",
@@ -653,6 +708,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "United Kingdom",
         "countryCode": "GB",
@@ -678,6 +734,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Greece",
         "countryCode": "GR",
@@ -686,6 +743,7 @@ markers = [
         "logo": "https://scontent.ffjr1-4.fna.fbcdn.net/v/t39.30808-6/305410826_579431460643848_7715757905159324656_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6Prum2AGw-QAX_yLegR&_nc_ht=scontent.ffjr1-4.fna&oh=00_AfDL3gnf2X-3aUY1pTC1l-3_ET5QWXW0KdQPtbUKG1r65A&oe=64BF2C47",
         "poc": "Nikos Vardakas",
         "email": "nikos@gue.com",
+        "facebook": null,
         "link": "https://www.guegreece.com",
         "location": {
           "lat": 37.98829407193763,
@@ -703,6 +761,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "premiumDiveCenter",
         "country": "Hong Kong",
         "countryCode": "HK",
@@ -711,6 +770,7 @@ markers = [
         "logo": null,
         "poc": "Andreas Baumgaertner",
         "email": "sales@thirddimensiondivingsea.com",
+        "facebook": null,
         "link": "https://thirddimensiondivingsea.com/",
         "location": {
           "lat": 22.309219702321766,
@@ -718,6 +778,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Hong Kong",
         "countryCode": "HK",
@@ -726,6 +787,7 @@ markers = [
         "logo": null,
         "poc": "Andrew Couch",
         "email": "andrew@asiatechdiving.com",
+        "facebook": null,
         "link": "https://www.facebook.com/groups/859253367453503/",
         "location": {
           "lat": 22.4,
@@ -743,6 +805,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "GUE Hungary",
         "countryCode": "HU",
@@ -751,6 +814,7 @@ markers = [
         "logo": null,
         "poc": "Zsolt Szilagyi",
         "email": "zsolt@gue.com",
+        "facebook": null,
         "link": "http://guehungary.com/",
         "location": {
           "lat": 47.49791,
@@ -768,6 +832,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "diveCenter",
         "country": "Croatia",
         "countryCode": "HR",
@@ -776,6 +841,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": "info@krnica.com",
+        "facebook": null,
         "link": "https://www.krnica.com/",
         "location": {
           "lat": 44.95419574363501,
@@ -793,6 +859,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "India",
         "countryCode": "IN",
@@ -801,6 +868,7 @@ markers = [
         "logo": "https://gue-india.com/wp-content/uploads/2019/08/Official-GUE-India-Logo-2018-8.png",
         "poc": "Julien Fortin",
         "email": "info@gue-india.com",
+        "facebook": null,
         "link": "https://gue-india.com/",
         "location": {
           "lat": 17.58,
@@ -808,6 +876,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Italy",
         "countryCode": "IT",
@@ -816,6 +885,7 @@ markers = [
         "logo": null,
         "poc": "Claudio Provenzani",
         "email": "maccagni1@iol.it",
+        "facebook": null,
         "link": "www.bigbluexplorers.com",
         "location": {
           "lat": 41.90278,
@@ -833,6 +903,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "premiumDiveCenter",
         "country": "Italy",
         "countryCode": "IT",
@@ -841,6 +912,7 @@ markers = [
         "logo": "https://www.baseone.it/wp-content/uploads/2021/05/logo_base1.png",
         "poc": null,
         "email": "info@baseone.it",
+        "facebook": null,
         "link": "https://www.baseone.it",
         "location": {
           "lat": 40.2841987687179,
@@ -848,6 +920,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "premiumDiveCenter",
         "country": "Italy",
         "countryCode": "IT",
@@ -856,6 +929,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": "info@portofinodivers.com",
+        "facebook": null,
         "link": "https://portofinodivers.com/",
         "location": {
           "lat": 44.329415874465134,
@@ -863,6 +937,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Italy",
         "countryCode": "IT",
@@ -878,6 +953,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Italy",
         "countryCode": "IT",
@@ -886,10 +962,38 @@ markers = [
         "logo": null,
         "poc": "Claudio Provenzani",
         "email": "maccagni1@iol.it",
+        "facebook": null,
         "link": "www.bigbluexplorers.com",
         "location": {
           "lat": 41.90278,
           "lng": 12.49636
+        }
+      }
+    ]
+  },
+  {
+    "country": "Japan",
+    "countryCode": "JP",
+    "location": { 
+      "lat": 34.98174990637672,
+      "lng": 138.94975850535923
+    },
+    "clusteredMarkers": [
+      {
+        "isActive": true,
+        "type": "localCommunity",
+        "country": "Japan",
+        "countryCode": "JP",
+        "city": "Izu",
+        "title": "GUE Japan",
+        "logo": "https://scontent.fdxb1-1.fna.fbcdn.net/v/t1.6435-9/41944139_10100227672619556_2399306977952923648_n.jpg?stp=c46.0.100.100a_dst-jpg_p100x100&_nc_cat=105&ccb=1-7&_nc_sid=70495d&_nc_ohc=1IESyWdmKoUAX_rtJy9&_nc_ht=scontent.fdxb1-1.fna&oh=00_AfAGhgFsVmmrT-dFehHlf6nfGqoCCpH3BbJav32V_tKE0Q&oe=64E214C2",
+        "poc": "Matt Broughton",
+        "email": null,
+        "facebook": null,
+        "link": "https://www.facebook.com/groups/2020854638144611/",
+        "location": {
+          "lat": 34.98174990637672,
+          "lng": 138.94975850535923
         }
       }
     ]
@@ -903,6 +1007,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "premiumDiveCenter",
         "country": "Korea (the Republic of)",
         "countryCode": "KR",
@@ -911,10 +1016,38 @@ markers = [
         "logo": null,
         "poc": "Kyungsoo Kim",
         "email": "dive.tech.korea@gmail.com",
+        "facebook": null,
         "link": "https://divetechkorea.com/",
         "location": {
           "lat": 37.39286168722462,
           "lng": 126.64571202654295
+        }
+      }
+    ]
+  },
+  {
+    "country": "Kuwait",
+    "countryCode": "KW",
+    "location": { 
+      "lat": 29.415382676862176,
+      "lng": 47.877735520989276
+    },
+    "clusteredMarkers": [
+      {
+        "isActive": true,
+        "type": "localCommunity",
+        "country": "Kuwait",
+        "countryCode": "KW",
+        "city": "",
+        "title": "GUE Kuwait",
+        "logo": "https://scontent.fdxb1-1.fna.fbcdn.net/v/t39.30808-6/309388889_458794296279182_7503645741563909045_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=AMIm05lSDi4AX9LNspI&_nc_ht=scontent.fdxb1-1.fna&oh=00_AfC5loFDga7XBFDN7CpEBpBvGkHD8MIy9-Ra4IXFLbSrtg&oe=64BEF0A0",
+        "poc": "Faisal AlQahtani",
+        "email": "ahmad@gue.com",
+        "facebook": null,
+        "link": "https://www.facebook.com/guekuwait/",
+        "location": {
+          "lat": 29.415382676862176,
+          "lng": 47.877735520989276
         }
       }
     ]
@@ -928,6 +1061,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "premiumDiveCenter",
         "country": "Mexico",
         "countryCode": "MX",
@@ -936,6 +1070,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": "info@zerogravity.com.mx",
+        "facebook": null,
         "link": "https://zerogravity.com.mx/",
         "location": {
           "lat": 20.505538421452883,
@@ -943,6 +1078,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "premiumDiveCenter",
         "country": "Mexico",
         "countryCode": "MX",
@@ -951,6 +1087,7 @@ markers = [
         "logo": null,
         "poc": "Kelvin Davidson",
         "email": "kelvin@thirddimensiondiving.com",
+        "facebook": null,
         "link": "https://www.thirddimensiondiving.com/",
         "location": {
           "lat": 20.214650382388147,
@@ -958,6 +1095,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "diveCenter",
         "country": "Mexico",
         "countryCode": "MX",
@@ -966,6 +1104,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": "booking@acuatictulum.com",
+        "facebook": null,
         "link": "https://www.acuatictulum.com",
         "location": {
           "lat": 20.1900,
@@ -973,6 +1112,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Mexico",
         "countryCode": "MX",
@@ -981,6 +1121,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": "bruno@diverscommunity.mx",
+        "facebook": null,
         "link": " https://www.facebook.com/diverscommunitymexico",
         "location": {
           "lat": 19.42109829596502,
@@ -998,6 +1139,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "premiumDiveCenter",
         "country": "Malaysia",
         "countryCode": "MY",
@@ -1006,6 +1148,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": "info@livingoceans.com.my",
+        "facebook": null,
         "link": "http://www.livingoceans.com.my/",
         "location": {
           "lat": 3.1856309677566883,
@@ -1013,6 +1156,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "diveCenter",
         "country": "Malaysia",
         "countryCode": "MY",
@@ -1021,6 +1165,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": "info@moby-tek.com",
+        "facebook": null,
         "link": "https://www.moby-tek.com",
         "location": {
           "lat": 2.8353216706623567,
@@ -1038,6 +1183,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "premiumDiveCenter",
         "country": "Netherlands",
         "countryCode": "NL",
@@ -1046,6 +1192,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": "info@aalscholvers.nl",
+        "facebook": null,
         "link": "http://www.aalscholvers.nl/",
         "location": {
           "lat": 51.568901673548815,
@@ -1053,6 +1200,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "premiumDiveCenter",
         "country": "Netherlands",
         "countryCode": "NL",
@@ -1068,6 +1216,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "premiumDiveCenter",
         "country": "Netherlands",
         "countryCode": "NL",
@@ -1076,6 +1225,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": "info@scuba-academie.nl",
+        "facebook": null,
         "link": "http://www.scuba-academie.nl/",
         "location": {
           "lat": 52.225409008498744,
@@ -1083,6 +1233,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "diveCenter",
         "country": "Netherlands",
         "countryCode": "NL",
@@ -1091,6 +1242,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": "info@buddydive.com",
+        "facebook": null,
         "link": "https://buddydive.com",
         "location": {
           "lat": 12.171044257369875,
@@ -1108,6 +1260,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "diveCenter",
         "country": "Philippines",
         "countryCode": "PH",
@@ -1116,6 +1269,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": "info@kasaivillage.com",
+        "facebook": null,
         "link": "https://www.scubadivingphilippines.com",
         "location": {
           "lat": 9.96209239898119,
@@ -1123,14 +1277,16 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "diveCenter",
         "country": "Philippines",
         "countryCode": "PH",
         "city": "",
         "title": "Tech Asia",
-        "logo": null,
+        "logo": "https://techasia.ph/assets/image/headerlogo.png",
         "poc": null,
         "email": "dave@techasia.ph",
+        "facebook": null,
         "link": "https://techasia.ph",
         "location": {
           "lat": 17.209060349051192,
@@ -1148,6 +1304,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Portugal",
         "countryCode": "PT",
@@ -1173,6 +1330,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "premiumDiveCenter",
         "country": "Singapore",
         "countryCode": "SG",
@@ -1181,6 +1339,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": "info@livingoceans.com.sg",
+        "facebook": null,
         "link": "http://www.livingoceans.com.sg/",
         "location": {
           "lat": 1.2990235598463238,
@@ -1188,6 +1347,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "diveCenter",
         "country": "Singapore",
         "countryCode": "SG",
@@ -1196,6 +1356,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": "info@emperordivers.com",
+        "facebook": null,
         "link": "https://www.emperordivers.com",
         "location": {
           "lat": 1.318538521614634,
@@ -1213,6 +1374,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "diveCenter",
         "country": "Thailand",
         "countryCode": "TH",
@@ -1221,6 +1383,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": "info@oceanbluewave.co.th",
+        "facebook": null,
         "link": "https://oceanbluewave.co.th",
         "location": {
           "lat": 13.74718177633435,
@@ -1228,6 +1391,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "diveCenter",
         "country": "Thailand",
         "countryCode": "TH",
@@ -1236,6 +1400,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": null,
+        "facebook": null,
         "link": "https://www.pattaya-scuba-adventures.com",
         "location": {
           "lat": 12.91759576423526,
@@ -1253,6 +1418,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Turkiye",
         "countryCode": "TR",
@@ -1261,6 +1427,7 @@ markers = [
         "logo": "https://gueturkey.com/images/gueturkey.jpg",
         "poc": "Nevcan Uludaş",
         "email": "nev@gue.com",
+        "facebook": null,
         "link": "http://gueturkey.com/",
         "location": {
           "lat": 41.015137,
@@ -1268,6 +1435,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "Turkiye",
         "countryCode": "TR",
@@ -1276,6 +1444,7 @@ markers = [
         "logo": "https://gueturkey.com/images/gueturkey.jpg",
         "poc": "Fatih Albayrak",
         "email": "fatih@gueturkey.com",
+        "facebook": null,
         "link": "http://gueturkey.com/",
         "location": {
           "lat": 37.769271305757876,
@@ -1293,6 +1462,7 @@ markers = [
     },
     "clusteredMarkers": [
       {
+        "isActive": true,
         "type": "premiumDiveCenter",
         "country": "United States of America",
         "countryCode": "US",
@@ -1301,6 +1471,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": "info@8diving.com",
+        "facebook": null,
         "link": "https://www.8diving.com/",
         "location": {
           "lat": 47.401578845502456,
@@ -1308,6 +1479,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "premiumDiveCenter",
         "country": "United States of America",
         "countryCode": "US",
@@ -1316,6 +1488,7 @@ markers = [
         "logo": null,
         "poc": "Karim Hamza",
         "email": "support@zendive.co",
+        "facebook": null,
         "link": "https://www.zendive.co/",
         "location": {
           "lat": 34.18064624239513,
@@ -1323,6 +1496,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "premiumDiveCenter",
         "country": "United States of America",
         "countryCode": "US",
@@ -1331,6 +1505,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": "info@extreme-exposure.com",
+        "facebook": null,
         "link": "http://www.extreme-exposure.com/",
         "location": {
           "lat": 29.825308613961422,
@@ -1338,6 +1513,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "diveCenter",
         "country": "United States of America",
         "countryCode": "US",
@@ -1346,6 +1522,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": "info@divealaska.net",
+        "facebook": null,
         "link": "http://divealaska.net",
         "location": {
           "lat": 61.15648859839376,
@@ -1353,6 +1530,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "diveCenter",
         "country": "United States of America",
         "countryCode": "US",
@@ -1361,6 +1539,7 @@ markers = [
         "logo": null,
         "poc": null,
         "email": "info@hollywooddivers.com",
+        "facebook": null,
         "link": "https://hollywooddivers.com",
         "location": {
           "lat": 34.05,
@@ -1368,6 +1547,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "United States of America",
         "countryCode": "US",
@@ -1376,6 +1556,7 @@ markers = [
         "logo": null,
         "poc": "John Heiman",
         "email": "info@baue.org",
+        "facebook": null,
         "link": "http://baue.org/",
         "location": {
           "lat": 37.75528713326324,
@@ -1383,6 +1564,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "United States of America",
         "countryCode": "US",
@@ -1391,6 +1573,7 @@ markers = [
         "logo": null,
         "poc": "Erik Lu",
         "email": "freakse@gmail.com",
+        "facebook": null,
         "link": "https://www.facebook.com/groups/283672583537735",
         "location": {
           "lat": 40.714435434231355,
@@ -1398,6 +1581,7 @@ markers = [
         }
       },
       {
+        "isActive": true,
         "type": "localCommunity",
         "country": "United States of America",
         "countryCode": "US",
@@ -1406,6 +1590,7 @@ markers = [
         "logo": null,
         "poc": "Cameron Miller",
         "email": "cmiller@gue.com",
+        "facebook": null,
         "link": "https://www.facebook.com/groups/218861355815880",
         "location": {
           "lat": 61.16957071369404,
