@@ -328,9 +328,9 @@ markers = [
         "countryCode": "DE",
         "city": "",
         "title": "Faszination-Tauchsport",
-        "logo": null,
+        "logo": "https://www.faszination-tauchsport.de/bilder/intern/shoplogo/logo.png",
         "poc": null,
-        "email": null,
+        "email": "service@faszination-tauchsport.de",
         "link": "https://www.faszination-tauchsport.de",
         "location": {
           "lat": 47.96896489560734,
@@ -418,7 +418,7 @@ markers = [
         "countryCode": "DE",
         "city": "Berlin",
         "title": "GUE Berlin",
-        "logo": null,
+        "logo": "https://scontent.ffjr1-6.fna.fbcdn.net/v/t39.30808-6/293340744_10159646512460339_2309569324341574119_n.jpg?stp=c73.0.80.80a_cp0_dst-jpg_p110x80&_nc_cat=102&ccb=1-7&_nc_sid=70495d&_nc_ohc=zEsOaTG5zssAX-dYeKY&_nc_ht=scontent.ffjr1-6.fna&oh=00_AfD4mirNy7KRRyrumMJvgPQFYhLoujLDNwL6oxkftEX4Yg&oe=64BF2530",
         "poc": "Clemens Chaskel",
         "email": null,
         "link": "https://www.facebook.com/groups/GUEDiversBerlin",
@@ -744,14 +744,14 @@ markers = [
     "clusteredMarkers": [
       {
         "type": "localCommunity",
-        "country": "Hungary",
+        "country": "GUE Hungary",
         "countryCode": "HU",
-        "city": "",
+        "city": "Budapest",
         "title": "Budapest",
         "logo": null,
-        "poc": null,
-        "email": null,
-        "link": null,
+        "poc": "Zsolt Szilagyi",
+        "email": "zsolt@gue.com",
+        "link": "http://guehungary.com/",
         "location": {
           "lat": 47.49791,
           "lng": 19.04023
@@ -780,6 +780,46 @@ markers = [
         "location": {
           "lat": 44.95419574363501,
           "lng": 14.03617742592672
+        }
+      }
+    ]
+  },
+  {
+    "country": "India",
+    "countryCode": "IN",
+    "location": {
+      "lat": 17.58,
+      "lng": 81.99
+    },
+    "clusteredMarkers": [
+      {
+        "type": "localCommunity",
+        "country": "India",
+        "countryCode": "IN",
+        "city": "",
+        "title": "GUE India",
+        "logo": "https://gue-india.com/wp-content/uploads/2019/08/Official-GUE-India-Logo-2018-8.png",
+        "poc": "Julien Fortin",
+        "email": "info@gue-india.com",
+        "link": "https://gue-india.com/",
+        "location": {
+          "lat": 17.58,
+          "lng": 81.99
+        }
+      },
+      {
+        "type": "localCommunity",
+        "country": "Italy",
+        "countryCode": "IT",
+        "city": "Rome",
+        "title": "BigBlueXplorers",
+        "logo": null,
+        "poc": "Claudio Provenzani",
+        "email": "maccagni1@iol.it",
+        "link": "www.bigbluexplorers.com",
+        "location": {
+          "lat": 41.90278,
+          "lng": 12.49636
         }
       }
     ]
