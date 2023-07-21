@@ -108,8 +108,10 @@ window.addEventListener( "earthjsload", function() {
             clusterLocation: location,
             markerLocation: clusteredMarkers[j].location
           });
-    
-          marker.addEventListener('click', openLink);
+
+          if (marker.link !== null) {
+            marker.addEventListener('click', openLink);
+          }
           marker.addEventListener('mouseover', enterMarker);
           marker.addEventListener('mouseout', leaveMarker);
     
