@@ -55,7 +55,31 @@ body {
 }
 
 .tooltip {
+  padding: 0;
+  border: none;
+}
+
+.tooltip-content {
+  border: 2px solid white;
+  padding: .5em;
   min-height: 60px;
+}
+
+.tooltip header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  line-height: 1em;
+}
+
+.tooltip-community-type {
+  margin-left: 1em;
+  border-radius: 4px;
+  padding: 0 5px;
+  font-size: 10px;
+  color: whiteblack;
+  background-color: #FFCC00;
 }
 
 .tooltip .label {

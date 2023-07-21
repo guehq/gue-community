@@ -61,6 +61,7 @@ window.addEventListener( "earthjsload", function() {
           hotspotRadius: 2.5,
           hotspotHeight: 0.1,
           title: markers[i].title,
+          type: markers[i].type,
           poc: markers[i].poc,
           email: markers[i].email,
           link: markers[i].link
@@ -77,6 +78,7 @@ window.addEventListener( "earthjsload", function() {
           hotspotHeight: 0.1,
           originalScale: 0.25,
           title: markers[i].title,
+          type: markers[i].type,
           poc: markers[i].poc,
           email: markers[i].email,
           link: markers[i].link,
@@ -98,6 +100,7 @@ window.addEventListener( "earthjsload", function() {
             hotspotHeight: 0.1,
             visible: false,
             title: clusteredMarkers[j].title,
+            type: clusteredMarkers[j].type,
             logo: clusteredMarkers[j].logo,
             poc: clusteredMarkers[j].poc,
             email: clusteredMarkers[j].email,
@@ -183,6 +186,7 @@ function zoomOut() {
 function enterMarker() {
   if ( goto_transition ) return; // no tooltips during zoom
 
+
   // LOGO
   let logo = this.logo
   if (logo == null) {
@@ -190,16 +194,30 @@ function enterMarker() {
   }
   logo = '<img src="' + logo + '" width="77" style="float: left; margin-right: .7em;">'
 
-  // COMMUNITY
+  // COMMUNITY TITLE
   let community = this.title
   community = '<span class="label">Community: </span>' + community
+
+  // COMMUNITY TYPE
+  let type = this.type
+  if (type == 'localCommunity') {
+    typeColor = '#FFCC00'
+  } else if (type == 'diveCenter') {
+    typeColor = '#babe82'
+  } else if (type == 'premiumDiveCenter') {
+    typeColor = '#64947b'
+  }
+  type = '<span class="tooltip-community-type" style="background-color: ' + typeColor + '">' + type + '</span>'
+
+  // HEADER
+  header = '<header>' + this.title + type + '</header>'
 
   // CONTACT
   let poc = this.poc
   if (poc == null) {
     poc = ''
   } else {
-    poc = '\n' + '<span class="label">Contact: </span>' + poc
+    poc = '<span class="label">Contact: </span>' + poc + '\n'
   }
 
   // EMAIL
@@ -207,7 +225,7 @@ function enterMarker() {
   if (email == null) {
     email = ''
   } else {
-    email = '\n' + '<span class="label">E-mail: </span>' + email
+    email = '<span class="label">E-mail: </span>' + email + '\n'
   }
 
   // LINK
@@ -215,12 +233,14 @@ function enterMarker() {
   if (link == null) {
     link = ''
   } else {
-    link = '\n' + '<span class="label">Website: </span>' + link
+    link = '<span class="label">Website: </span>' + link
   }
   
   tooltip.location = this.location;
-  tooltip.content = logo + community + poc + email + link;
-  tooltip.element.style.marginTop = '-' + String(this.scale*0.5 + 0.75) + 'em';
+  tooltip.content =  '<div class="tooltip-content">' + logo + header + poc + email + link + '</div>';
+  tooltip.element.style.marginTop = '-' + String(this.scale * 0.5 + 0.75) + 'em';
+  // tooltip.element.style.minHeight = '60px';
+  // tooltip.element.style.minWidth = '450px';
   tooltip.visible = true;
 }
 
