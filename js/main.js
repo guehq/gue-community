@@ -182,8 +182,13 @@ function zoomOut() {
 
 function enterMarker() {
   if ( goto_transition ) return; // no tooltips during zoom
+  let img = this.logo
+  if (img == null) {
+    img = './img/gue-community-stroke-w200.png'
+  }
+  
   tooltip.location = this.location;
-  tooltip.content = 'Community: ' + this.title + '\n' + 'Contact: ' + this.poc + '\n' + 'Email: ' + this.email + '\n' + 'Website: ' + this.link;
+  tooltip.content = '<img src="' + img + '" width="77" style="float: left; margin-right: .7em;">' + 'Community: ' + this.title + '\n' + 'Contact: ' + this.poc + '\n' + 'Email: ' + this.email + '\n' + 'Website: ' + this.link;
   tooltip.element.style.marginTop = '-' + String(this.scale*0.5 + 0.75) + 'em';
   tooltip.visible = true;
 }
