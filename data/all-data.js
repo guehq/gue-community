@@ -1390,6 +1390,32 @@ markers = [
     ]
   },
   {
+    "country": "Poland",
+    "countryCode": "PL",
+    "location": {
+      "lat": 54.377,
+      "lng": 18.6543
+    },
+    "clusteredMarkers": [
+      {
+        "isActive": true,
+        "type": "localCommunity",
+        "country": "Poland",
+        "countryCode": "PL",
+        "city": "Gdansk",
+        "title": "GUE Poland",
+        "logo": "https://scontent.fdxb1-1.fna.fbcdn.net/v/t39.30808-6/291944548_412275164275905_7944245666801163750_n.png?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=qSRwt9XSZ9QAX8Gec83&_nc_ht=scontent.fdxb1-1.fna&oh=00_AfC3eKCm0tJDjaPSruzo2CsLcgxd5E9lz7cXzMJdXS1TDg&oe=64BF9F56",
+        "poc": "Bartek Trzcinski",
+        "email": "bat@gue.com",
+        "link": "https://www.facebook.com/guepoland/",
+        "location": {
+          "lat": 54.37777556150452,
+          "lng": 18.65431155191144
+        }
+      }
+    ]
+  },
+  {
     "country": "Portugal",
     "countryCode": "PT",
     "location": {
