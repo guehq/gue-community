@@ -154,6 +154,23 @@ markers = [
           "lat": 50.868990774609635,
           "lng": 4.735199499609247
         }
+      },
+      {
+        "isActive": true,
+        "type": "localCommunity",
+        "country": "Belgium",
+        "countryCode": "BE",
+        "city": null,
+        "title": "GUE-BE",
+        "logo": null,
+        "poc": "Peter Brandt",
+        "email": "peter.brandt.be@gmail.com",
+        "facebook": null,
+        "link": "https://www.facebook.com/groups/gue.be",
+        "location": {
+          "lat": 50.5,
+          "lng": 4.626173914529528
+        }
       }
     ]
   },
@@ -280,6 +297,23 @@ markers = [
         "poc": null,
         "email": null,
         "link": null,
+        "location": {
+          "lat": 46.16699,
+          "lng": 8.79426
+        }
+      },
+      {
+        "isActive": true,
+        "type": "localCommunity",
+        "country": "Switzerland",
+        "countryCode": "CH",
+        "city": null,
+        "title": "Settegradi Divers",
+        "logo": "https://scontent.ffjr1-2.fna.fbcdn.net/v/t1.6435-9/70093660_10217841760987699_9976285610639360_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8631f5&_nc_ohc=qZo05f33XX0AX-O4ohZ&_nc_ht=scontent.ffjr1-2.fna&oh=00_AfB3uk2ukPCZTc-g_dFNRZG9qyKljdmYQ22H-_BYbWG9wA&oe=64E35493",
+        "poc": "Romano Rampazzo",
+        "email": "7gradi@settegradidivers.eu",
+        "link": "https://www.settegradidivers.eu",
+        "facebook": "https://www.facebook.com/groups/7gradidivers",
         "location": {
           "lat": 46.16699,
           "lng": 8.79426
@@ -628,8 +662,8 @@ markers = [
     "country": "Spain",
     "countryCode": "ES",
     "location": {
-      "lat": 39.4699,
-      "lng": -0.37628
+      "lat": 40.4,
+      "lng": -3.7
     },
     "clusteredMarkers": [
       {
@@ -680,6 +714,22 @@ markers = [
         "location": {
           "lat": 39.4699,
           "lng": -0.37628
+        }
+      },
+      {
+        "isActive": true,
+        "type": "localCommunity",
+        "country": "Spain",
+        "countryCode": "ES",
+        "city": null,
+        "title": "GUE Spain",
+        "logo": "https://scontent.ffjr1-1.fna.fbcdn.net/v/t31.18172-8/12194612_10153549048275219_7065498822098221406_o.jpg?_nc_cat=111&ccb=1-7&_nc_sid=825194&_nc_ohc=-TIk0w3RjNIAX97MGAK&_nc_ht=scontent.ffjr1-1.fna&oh=00_AfAh7sm3oTCMkJVCbM-R6o5KW027jDY4zs7XONj3h9IgyA&oe=64E2F065",
+        "poc": "Belen Andres-Garcia",
+        "email": "belen@gue.com",
+        "link": "https://www.facebook.com/groups/GUE.Spain/",
+        "location": {
+          "lat": 40.4235955133218,
+          "lng": -3.7465292258475626
         }
       }
     ]
@@ -754,6 +804,22 @@ markers = [
         "location": {
           "lat": 54.116045087008025,
           "lng": -1.6446860920443174
+        }
+      },
+      {
+        "isActive": true,
+        "type": "localCommunity",
+        "country": "United Kingdom",
+        "countryCode": "GB",
+        "city": "Scotland",
+        "title": "GUE Scotland",
+        "logo": null,
+        "poc": "Andrew Pilley",
+        "email": "arpilley@hotmail.co.uk",
+        "link": "https://m.facebook.com/groups/DIR.Scotland/",
+        "location": {
+          "lat": 56.82853214215148,
+          "lng": -5.89737358302413
         }
       }
     ]
@@ -1410,8 +1476,8 @@ markers = [
     "country": "Poland",
     "countryCode": "PL",
     "location": {
-      "lat": 54.377,
-      "lng": 18.6543
+      "lat": 52.18,
+      "lng": 19.39
     },
     "clusteredMarkers": [
       {
@@ -1428,6 +1494,32 @@ markers = [
         "location": {
           "lat": 54.37777556150452,
           "lng": 18.65431155191144
+        }
+      }
+    ]
+  },
+  {
+    "country": "Sweden",
+    "countryCode": "SE",
+    "location": {
+      "lat": 62.93429196070074,
+      "lng": 15.66071227293596
+    },
+    "clusteredMarkers": [
+      {
+        "isActive": true,
+        "type": "localCommunity",
+        "country": "Sweden",
+        "countryCode": "SE",
+        "city": null,
+        "title": "GUE Sweden",
+        "logo": "https://www.facebook.com/groups/guesweden/?__tn__=%3C",
+        "poc": "Per Normark",
+        "email": "per@gue.com",
+        "link": "https://www.facebook.com/groups/guesweden",
+        "location": {
+          "lat": 62.93429196070074,
+          "lng": 15.66071227293596
         }
       }
     ]
@@ -1454,6 +1546,22 @@ markers = [
         "location": {
           "lat": 38.72225,
           "lng": -9.13933
+        }
+      },
+      {
+        "isActive": true,
+        "type": "localCommunity",
+        "country": "Portugal",
+        "countryCode": "PT",
+        "city": null,
+        "title": "GUE Portugal",
+        "logo": "https://scontent.ffjr1-1.fna.fbcdn.net/v/t31.18172-8/12194880_10153549042785219_4301165374173653562_o.jpg?_nc_cat=111&ccb=1-7&_nc_sid=825194&_nc_ohc=S5El54PaSscAX9H7Lgg&_nc_oc=AQnF3L-MbY9CMH-8GNg4xVolZYe3V8H9CK2YdgyUkiJ22nTry12aIl2CXwnYQRPQC-0&_nc_ht=scontent.ffjr1-1.fna&oh=00_AfC-Lwz2ga8sgAnwxCoQA05ZeVPybt6j6beRnH6q742z4g&oe=64E31B61",
+        "poc": "Nuno Padrao",
+        "email": "nuno@gue.com",
+        "link": "https://www.facebook.com/groups/GUEPortugal/",
+        "location": {
+          "lat": 39.8361403761272,
+          "lng": -8.950073112954447
         }
       }
     ]
@@ -1745,10 +1853,27 @@ markers = [
         "poc": "Karim Hamza",
         "email": "karim@gue.com",
         "facebook": null,
-        "link": "https://m.facebook.com/groups/GUELA/",
+        "link": "https://www.facebook.com/groups/GUELA/",
         "location": {
           "lat": 33.8,
           "lng": -118.2
+        }
+      },
+      {
+        "isActive": true,
+        "type": "localCommunity",
+        "country": "United States of America",
+        "countryCode": "US",
+        "city": "Ventura County, CA",
+        "title": "Ventura Underwater Explorers",
+        "logo": "https://scontent.ffjr1-6.fna.fbcdn.net/v/t39.30808-6/235295840_10228021737875281_3133589566826474129_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8631f5&_nc_ohc=hgZYNgRSEUIAX8Emo7K&_nc_ht=scontent.ffjr1-6.fna&oh=00_AfBU_Gt6rjn3FKJHEcmlhAIAgx5AgxNMJOkwguLF4UY24Q&oe=64C0EEFC",
+        "poc": "Tom Figueroa",
+        "email": "tomfig@gue.com",
+        "facebook": null,
+        "link": "https://www.facebook.com/groups/358517375574932",
+        "location": {
+          "lat": 34.27604552029024,
+          "lng": -119.12089008849598
         }
       }
     ]
