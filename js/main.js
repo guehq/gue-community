@@ -64,7 +64,8 @@ window.addEventListener( "earthjsload", function() {
           type: markers[i].type,
           poc: markers[i].poc,
           email: markers[i].email,
-          link: markers[i].link
+          link: markers[i].link,
+          facebook: markers[i].facebook
         });
       } else { // cluster of markers
         const clusterScale = 0.15 + clusteredMarkers.length * 0.01;
@@ -82,6 +83,7 @@ window.addEventListener( "earthjsload", function() {
           poc: markers[i].poc,
           email: markers[i].email,
           link: markers[i].link,
+          facebook: markers[i].facebook,
           clusteredMarkers: []
         });
     
@@ -105,6 +107,7 @@ window.addEventListener( "earthjsload", function() {
             poc: clusteredMarkers[j].poc,
             email: clusteredMarkers[j].email,
             link: clusteredMarkers[j].link,
+            facebook: clusteredMarkers[j].facebook,
             clusterLocation: location,
             markerLocation: clusteredMarkers[j].location
           });
@@ -234,8 +237,14 @@ function enterMarker() {
 
   // LINK
   let link = this.link
+  let facebook = this.facebook
+
   if (link == null) {
-    link = ''
+    if (facebook == null) {
+      link = ''
+    } else {
+      link = '<div class="tooltip-line"><span class="label">Website:</span>' + facebook + '</div>'
+    }
   } else {
     link = '<div class="tooltip-line"><span class="label">Website:</span>' + link + '</div>'
   }
