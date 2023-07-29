@@ -333,7 +333,7 @@
     },
     "clusteredMarkers": [
       {
-        "isActive": true,
+        "isActive": false,
         "type": "premiumDiveCenter",
         "country": "China",
         "countryCode": "CN",
@@ -1022,7 +1022,7 @@
     "clusteredMarkers": [
       {
         "isActive": true,
-        "type": "premiumDiveCenter",
+        "type": "centerOfExcellence",
         "country": "Italy",
         "countryCode": "IT",
         "city": null,
@@ -1039,7 +1039,7 @@
       },
       {
         "isActive": true,
-        "type": "premiumDiveCenter",
+        "type": "centerOfExcellence",
         "country": "Italy",
         "countryCode": "IT",
         "city": null,
@@ -1208,7 +1208,7 @@
     "clusteredMarkers": [
       {
         "isActive": true,
-        "type": "premiumDiveCenter",
+        "type": "centerOfExcellence",
         "country": "Mexico",
         "countryCode": "MX",
         "city": null,
@@ -1328,6 +1328,23 @@
       "lng": 5.0864
     },
     "clusteredMarkers": [
+      {
+        "isActive": true,
+        "type": "centerOfExcellence",
+        "country": "Netherlands",
+        "countryCode": "NL",
+        "city": null,
+        "title": "Area 9 Mastery Diving",
+        "logo": "https://images.squarespace-cdn.com/content/v1/613d2c7004a04e3471595fdc/ff2c28ca-e83f-477e-81df-87402d6e6a8e/Mastery+Diving_logo_negativre_only_larger_research_center.png?format=1500w",
+        "poc": null,
+        "email": "info@masterydiving.com",
+        "link": "https://www.masterydiving.com/",
+        "facebook": null,
+        "location": {
+          "lat": 12.20,
+          "lng": -68.64
+        }
+      },
       {
         "isActive": true,
         "type": "premiumDiveCenter",

@@ -50,7 +50,18 @@ window.addEventListener( "earthjsload", function() {
       let marker;
     
       if (!clusteredMarkers) { // single marker
-        const color = type === 'diveCenter' ? '#babe82' : type === 'premiumDiveCenter' ? '#64947b' : '#FFCC00';
+        // const color = type === 'diveCenter' ? '#babe82' : type === 'premiumDiveCenter' ? '#64947b' : '#FFCC00';
+        let color;
+
+        if (type === 'diveCenter') {
+          color = '#babe82';
+        } else if (type === 'premiumDiveCenter') {
+          color = '#64947b';
+        } else if (type === 'centerOfExcellence') {
+          color = 'orange';
+        } else {
+          color = '#FFCC00';
+        }
     
         marker = myearth.addMarker({
           mesh: "Circle",
@@ -91,7 +102,20 @@ window.addEventListener( "earthjsload", function() {
     
         // add clusteredMarkers
         for (var j = 0; j < clusteredMarkers.length; j++) {
-          const color = clusteredMarkers[j].type === 'diveCenter' ? '#babe82' : clusteredMarkers[j].type === 'premiumDiveCenter' ? '#64947b' : '#FFCC00';
+          // const color = clusteredMarkers[j].type === 'diveCenter' ? '#babe82' : clusteredMarkers[j].type === 'premiumDiveCenter' ? '#64947b' : '#FFCC00';
+
+          let color;
+
+          if (clusteredMarkers[j].type === 'diveCenter') {
+            color = '#babe82';
+          } else if (clusteredMarkers[j].type === 'premiumDiveCenter') {
+            color = '#64947b';
+          } else if (clusteredMarkers[j].type === 'centerOfExcellence') {
+            color = 'orange';
+          } else {
+            color = '#FFCC00';
+          }
+
           marker = myearth.addMarker({
             mesh: "Circle",
             color,
@@ -213,6 +237,8 @@ function enterMarker() {
     typeColor = '#babe82'
   } else if (type == 'premiumDiveCenter') {
     typeColor = '#64947b'
+  } else if (type == 'centerOfExcellence') {
+    typeColor = 'orange'
   }
   type = '<span class="tooltip-community-type" style="background-color:' + typeColor + '">' + type + '</span>'
 
