@@ -1,4 +1,4 @@
-window.addEventListener("earthjsload", function () {
+function createEarthJS() {
   let zoom_based_rescale_factor = 10;
   myearth = new Earth(document.getElementById('myearth'), {
     location: {
@@ -130,14 +130,22 @@ window.addEventListener("earthjsload", function () {
             clusterLocation: location,
             markerLocation: clusteredMarkers[j].location
           });
-
+          
           if (marker.link !== null) {
             marker.addEventListener('click', openLink);
           }
           marker.addEventListener('mouseover', enterMarker);
           marker.addEventListener('mouseout', leaveMarker);
-
-          cluster.clusteredMarkers.push(marker);
+          
+          if (clusteredMarkers[j].type === 'localCommunity' && document.getElementById('localCommunities').checked) {
+            cluster.clusteredMarkers.push(marker);
+          } else if (clusteredMarkers[j].type === 'diveCenter' && document.getElementById('diveCenters').checked) {
+            cluster.clusteredMarkers.push(marker);
+          } else if (clusteredMarkers[j].type === 'premiumDiveCenter' && document.getElementById('premiumDiveCenters').checked) {
+            cluster.clusteredMarkers.push(marker);
+          } else if (clusteredMarkers[j].type === 'centerOfExcellence' && document.getElementById('centerOfExcellence').checked) {
+            cluster.clusteredMarkers.push(marker);
+          }
         }
       }
 
@@ -148,8 +156,7 @@ window.addEventListener("earthjsload", function () {
       marker.addEventListener('mouseout', leaveMarker);
     }
   });
-});
-
+};
 var current_cluster, goto_transition;
 
 function expandCluster() {
@@ -281,4 +288,49 @@ function leaveMarker() {
 
 function openLink() {
   window.open(this.link);
+}
+
+// BUILD THE GLOBE
+window.onload = function () {
+  createEarthJS ();
+};
+
+function reloadEarthJS () {
+  const myearthContainer = document.getElementById('myearth');
+  
+  // Function to delete all child elements
+  function deleteAllChildElements(parentElement) {
+    while (parentElement.firstChild) {
+      parentElement.removeChild(parentElement.firstChild);
+    }
+  }
+
+  deleteAllChildElements(myearthContainer);
+
+  // Create the canvas element
+  const newCanvasElement = document.createElement('canvas');
+  newCanvasElement.width = 1200;
+  newCanvasElement.height = 796;
+  newCanvasElement.style.display = 'block';
+  newCanvasElement.style.width = '1200px';
+  newCanvasElement.style.height = '796px';
+
+  // Create the div for the earth overlay
+  const earthOverlayDiv = document.createElement('div');
+  earthOverlayDiv.classList.add('earth-overlay', 'earth-overlay-left');
+  earthOverlayDiv.style.display = 'none';
+  earthOverlayDiv.style.zIndex = '1010';
+
+  // Create the tooltip div
+  const tooltipDiv = document.createElement('div');
+  tooltipDiv.classList.add('tooltip');
+
+  // Append the tooltip div to the earth overlay div
+  earthOverlayDiv.appendChild(tooltipDiv);
+
+  // Append the canvas and earth overlay div to the #myearth element
+  myearthContainer.appendChild(newCanvasElement);
+  myearthContainer.appendChild(earthOverlayDiv);
+
+  createEarthJS ();
 }
