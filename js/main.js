@@ -137,13 +137,12 @@ function createEarthJS() {
           marker.addEventListener('mouseover', enterMarker);
           marker.addEventListener('mouseout', leaveMarker);
           
-          if (clusteredMarkers[j].type === 'localCommunity' && document.getElementById('localCommunities').checked) {
-            cluster.clusteredMarkers.push(marker);
-          } else if (clusteredMarkers[j].type === 'diveCenter' && document.getElementById('diveCenters').checked) {
-            cluster.clusteredMarkers.push(marker);
-          } else if (clusteredMarkers[j].type === 'premiumDiveCenter' && document.getElementById('premiumDiveCenters').checked) {
-            cluster.clusteredMarkers.push(marker);
-          } else if (clusteredMarkers[j].type === 'centerOfExcellence' && document.getElementById('centerOfExcellence').checked) {
+          if (
+            clusteredMarkers[j].type === 'localCommunity' && document.getElementById('localCommunities').checked ||
+            clusteredMarkers[j].type === 'diveCenter' && document.getElementById('diveCenters').checked ||
+            clusteredMarkers[j].type === 'premiumDiveCenter' && document.getElementById('premiumDiveCenters').checked ||
+            clusteredMarkers[j].type === 'centerOfExcellence' && document.getElementById('centerOfExcellence').checked
+          ) {
             cluster.clusteredMarkers.push(marker);
           }
         }
