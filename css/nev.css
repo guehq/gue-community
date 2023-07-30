@@ -106,3 +106,42 @@ body {
   color: #777;
   width: 66px;
 }
+
+/* Hide the default checkbox */
+.custom-checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+}
+
+/* Style the custom checkbox */
+.custom-checkbox label {
+  display: inline-block;
+  margin: 4px 8px;
+  border: 1px solid #DDD;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  background-color: #333; /* Set the background color for the checked state */
+  cursor: pointer;
+}
+
+/* Style the custom checkbox when checked */
+.custom-checkbox input[type="checkbox"]#localCommunities:checked + label {
+  background-color: #FFCC00; /* Change the background color when checked */
+}
+
+.custom-checkbox input[type="checkbox" ]#diveCenters:checked + label {
+  background-color: #babe82; /* Change the background color when checked */
+}
+
+.custom-checkbox input[type="checkbox" ]#premiumDiveCenters:checked + label {
+  background-color: #64947b; /* Change the background color when checked */
+}
+
+.custom-checkbox input[type="checkbox" ]#centerOfExcellence:checked + label {
+  background-color: orange; /* Change the background color when checked */
+}
