@@ -68,8 +68,9 @@ function createEarthJS() {
           hotspot: true,
           hotspotRadius: 2.5,
           hotspotHeight: 0.1,
-          title: markers[i].title,
+          isActive: markers[i].isActive,
           type: markers[i].type,
+          title: markers[i].title,
           poc: markers[i].poc,
           email: markers[i].email,
           link: markers[i].link,
@@ -120,8 +121,9 @@ function createEarthJS() {
             hotspotRadius: 2.5,
             hotspotHeight: 0.1,
             visible: false,
-            title: clusteredMarkers[j].title,
+            isActive: clusteredMarkers[j].isActive,
             type: clusteredMarkers[j].type,
+            title: clusteredMarkers[j].title,
             logo: clusteredMarkers[j].logo,
             poc: clusteredMarkers[j].poc,
             email: clusteredMarkers[j].email,
@@ -139,13 +141,15 @@ function createEarthJS() {
           marker.addEventListener('mouseover', enterMarker);
           marker.addEventListener('mouseout', leaveMarker);
           
-          if (
-            clusteredMarkers[j].type === 'localCommunity' && document.getElementById('localCommunities').checked ||
-            clusteredMarkers[j].type === 'diveCenter' && document.getElementById('diveCenters').checked ||
-            clusteredMarkers[j].type === 'premiumDiveCenter' && document.getElementById('premiumDiveCenters').checked ||
-            clusteredMarkers[j].type === 'centerOfExcellence' && document.getElementById('centerOfExcellence').checked
-          ) {
-            cluster.clusteredMarkers.push(marker);
+          if (clusteredMarkers[j].isActive === true ) {
+            if (
+              clusteredMarkers[j].type === 'localCommunity' && document.getElementById('localCommunities').checked ||
+              clusteredMarkers[j].type === 'diveCenter' && document.getElementById('diveCenters').checked ||
+              clusteredMarkers[j].type === 'premiumDiveCenter' && document.getElementById('premiumDiveCenters').checked ||
+              clusteredMarkers[j].type === 'centerOfExcellence' && document.getElementById('centerOfExcellence').checked
+            ) {
+              cluster.clusteredMarkers.push(marker);
+            }
           }
         }
       }
