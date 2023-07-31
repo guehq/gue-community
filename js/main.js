@@ -133,6 +133,8 @@ function createEarthJS() {
           
           if (marker.link !== null) {
             marker.addEventListener('click', openLink);
+          } else if (marker.facebook !== null) {
+            marker.addEventListener('click', openFacebook);
           }
           marker.addEventListener('mouseover', enterMarker);
           marker.addEventListener('mouseout', leaveMarker);
@@ -150,6 +152,8 @@ function createEarthJS() {
 
       if (marker.link !== null) {
         marker.addEventListener('click', openLink);
+      } else if (marker.facebook !== null) {
+        marker.addEventListener('click', openFacebook);
       }
       marker.addEventListener('mouseover', enterMarker);
       marker.addEventListener('mouseout', leaveMarker);
@@ -287,6 +291,10 @@ function leaveMarker() {
 
 function openLink() {
   window.open(this.link);
+}
+
+function openFacebook() {
+  window.open(this.facebook);
 }
 
 // BUILD THE GLOBE
